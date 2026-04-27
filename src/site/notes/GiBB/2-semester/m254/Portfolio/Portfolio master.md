@@ -104,3 +104,42 @@ Das vorliegende Organigramm zeigt eine **divisionale Organisation**(Spartenorgan
 ---
 
 Ich befinde mich in GHR-SCS-NEX-INP-10 - in Group HR(Klementina Pejic) Swisscom Schweiz INP-10(Team Zeichnen)
+
+
+### Pitch notes: 
+
+Swisscom hat eine divisionale Organisation unter dem Name Swisscom Group. Das heisst dass es nach regionen bzw Märkte unterteilt ist. Dazu erkläre ich später
+
+----
+
+Oberstste stufe - Verwaltungsrat - das is tatsächtlich die ebene die eine Strategie des Unternehmens fetstlegt, sowie Geschäftsführung überprüft und langfristige Ausrichtung der Gruppe definiert.
+
+---
+
+Internal Audit  - das ist unabhängige Instanz die direkt an dem Verwaltungsrat berichtet. 
+Aufgabe: kontollieren ob das Unternehem Vorgaben(sei es, gesetztliche, interne, sicherheits, financen) einhält, Risiken gut managt und effizient arbeitet
+
+---
+
+Dann haben wir GECS ebene. Die ist verantwortlich für die Operative cooperation(Abstimmumg der Strategien) zwischen Italien und die Schweiz groups.
+
+---
+
+Hier kommen wir zu der Eklärung warum is Swisscom eigentlich ein divisionales Unternehmen.
+GECS wird in 2 subgroups untertielt. Fuer Italienishce rund die Schwiezericher markt. 
+
+---
+Ich bin natuerlich in der Schweizer group under der Führung von Klementine Pejic. 
+
+Die Namen sind fast selbsterklärend was ich noch anmerken würde, das sind die RES and BCS. Das was steht eigenlich für B2C B2B. RES - sind wir.  BCS - Kommunikations und vershieden IT lösungen, Cloud Computing services hat swisscom.
+
+---
+
+Wenn ich das richtig verstanden habe, ist bei der Italienischer Group Strategy und Transformation seit neulich erstand wurde, als Swissom vodafone aufgekauft hat.
+
+---
+
+und was zu  Die 'Group ExCo Guests' 
+sind ständige Gäste der Konzernleitung, haben kein Stimmrecht, aber sie beraten Top Managmenet in der Fragen wie Sicherheit, Nachhaltigkeit, Kommunkation, also Querscnittsthemen. 
+
+---
