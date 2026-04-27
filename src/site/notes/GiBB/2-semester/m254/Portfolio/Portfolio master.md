@@ -28,18 +28,19 @@
     background-color: #f5f5f7;
   }
 </style>
-
+>
 # Titelseite
 
-**Thema:** Portfolio Dokumentation – Aufbauorganisation  
-**Fallbeispiel:** Swisscom AG  
+**Thema:** Portfolio Dokumentation
+
 
 **Autor:** Maksym Podhrushko  
+Firma: Swisscom AG  
 **Klasse:** INF2025Wa  
-**Modul:** [Modulnummer hier einfügen] – Informatik-Infrastruktur im Betrieb  
+**Modul:** M254 - Geschäftsprozesse beschreiben
 **Betrieb:** Swisscom AG  
-**Datum:** Februar 2026  
-**Version:** 2.0  
+**Datum:** April 2026  
+**Version:** 1.0  
 
 ---
 
