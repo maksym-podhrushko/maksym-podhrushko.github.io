@@ -248,3 +248,49 @@ sind ständige Gäste der Konzernleitung, haben kein Stimmrecht, aber sie berate
 
 
 ---
+
+# KR1.3 Grundlagen Geschäftsprozesse 
+
+## Werkstück KR1.3 Kernprozesse
+
+| **Prozess**                              | **Klassifikation** | **Begründung**                                                                                                                                                                                                                                              |
+| ---------------------------------------- | ------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **P1: Verkaufsberatung & Bonitätscheck** | **Wertschöpfend**  | Dieser Prozess ist der Startpunkt. Die Beratung schafft Mehrwert, da der Kunde das passende Gerät findet. <br><br>Bonitätscheck ist gebraucht damit der Kunde die gewünschte Finanzierung überhaupt erhalten kann.                                          |
+| **P2: Vertragsmanagement**               | **Wertschöpfend**  | Die Erstellung des Ratenplans ist für den Kunden wertschöpfend, da sie ihm den rechtlichen Anspruch auf das Gerät und die Teilzahlung sichern.<br><br>Ohne diesen Schritt gäbe es keine Leistungserbringung.                                                |
+| **P3: Abwicklung**                       | **Unterstützend**  | Das ist der Kern der physischen Leistung. Der Kunde erhält sein Gerät (entweder sofort im Shop oder per Post). <br><br>Hier wird der Hauptnutzen des gesamten Prozesses für den Kunden realisiert.                                                          |
+| **P4: Billing**                          | **Unterstützend**  | Dieser Prozess ist rein administrativ. Er sorgt dafür, dass die Buchhaltung bei Swisscom stimmt und die Zahlungen fliessen.<br><br>Der Kunde hat dadurch keinen direkten Nutzen am Produkt selbst, es ist eine notwendige Folgeaufgabe für das Unternehmen. |
+
+
+### 2. Beschreibung der End-to-End Sicht 
+
+**Definition:** Process beginnt beim Kundenbedürfnis und bei der Kundenzufriedenheit bzw. Erhalt der Ware endet.
+
+#### Der Auslöser: 
+Der Kunde benötigt ein neues Smartphone, möchte aber sein Budget schonen und wählt daher die Ratenzahlung auf der Swisscom-Webseite oder im Shop.
+
+---
+#### Der Durchlauf: 
+##### Wahl
+Der Kunde möchte ein neues Gerät. Für ihn ist wichtig, dass er online oder im Shop alle relevanten Informationen einfach findet.
+##### Vertrag
+Bevor der Kunde sich bindet, will er die Vertragsbedingungen klar verstehen und unterschreiben:
+
+* **Wie hoch ist die Anzahlung?**
+* **Wie viel zahle ich monatlich?**
+* **Wie lange läuft der Vertrag?**
+
+##### Das Erfolgserlebnis
+Ob im Shop zum Mitnehmen oder per Post am nächsten Werktag – das Ziel ist der physische Besitz des funktionierenden Geräts inklusive SIM-Karte/eSIM.
+
+##### Abwicklung:
+Nach dem Kauf möchte der Kunde keinen administrativen Aufwand haben. Für ihn ist es ein Mehrwert, dass die Handyrate einfach auf der gewohnten Swisscom-Rechnung erscheint. Er muss keinen separaten Dauerauftrag einrichten, sondern alles läuft automatisch.
+
+
+#### Das Ergebnis:
+Am Ende steht ein Kunde, der ein funktionierendes Gerät besitzt, dessen Finanzierung geklärt ist und der eine korrekte, kombinierte Rechnung erhält.
+
+---
+**Warum ist die E2E-Sicht hier wichtig?**
+Wenn nur ein Teil der Kette funktioniert z. B. das Gerät wird geliefert, aber das Billing-System die Rate nicht erfasst, macht Swisscom keinen Gewinn.
+
+Funktioniert das Billing, aber die Logistik ist zu langsam, ist der Kunde unzufrieden. Nur die Betrachtung von Anfang bis Ende garantiert den Geschäftserfolg.
