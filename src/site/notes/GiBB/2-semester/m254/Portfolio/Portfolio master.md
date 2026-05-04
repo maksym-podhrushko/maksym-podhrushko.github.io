@@ -143,3 +143,108 @@ und was zu  Die 'Group ExCo Guests'
 sind ständige Gäste der Konzernleitung, haben kein Stimmrecht, aber sie beraten Top Managmenet in der Fragen wie Sicherheit, Nachhaltigkeit, Kommunkation, also Querscnittsthemen. 
 
 ---
+
+# KR1.2 Ablauforganisation 
+## Aufgabe 1 – Aufgabe auswählen und analysieren
+
+**Aufgabe:** Verkauf eines Smartphones mit Ratenzahlungsvereinbarung.
+
+> [!info] Möglich nur mit Abo
+
+| **Teilaufgabe**        | **Beschreibung**                                                    | **Ort**                 | **Verantwortlich**                  | **Bemerkungen**                      |
+| ---------------------- | ------------------------------------------------------------------- | ----------------------- | ----------------------------------- | ------------------------------------ |
+| **Beratung**           | Beratung des Kunden zu Gerät, Speicherplatz und Farbe.              | Shop oder Online        | Sales Consultant / Kunde selbst     | Fokus auf Kundenbedürfnisse.         |
+| **Bonitätsprüfung**    | Systemseitige Abfrage der Kreditwürdigkeit (Zahlungsfähigkeit).     | SAP Credit Management   | Credit Risk Management / System     | Automatisiert in Echtzeit.           |
+| **Vertragserstellung** | Erstellung des Ratenzahlungsvertrags (Wie lange? Wie viel?).        | POS-System              | Sales Consultant/ Online System     | Rechtlich bindendes Dokument.        |
+| **Versand**            | Übergabe des Geräts im Shop oder Auslösung des Postversands.        | Lager / Logistikzentrum | Logistikmitarbeiter / Shop-Personal | Bestand wird im System abgebucht.    |
+| **Rechnungsstellung**  | Integration der monatlichen Rate in die Swisscom Mobilfunkrechnung. | Abrechnungssystem       | Buchhaltung / IT-System             | Monatlicher automatisierter Prozess. |
+
+---
+
+## Aufgabe 2 – Prozesse identifizieren
+
+### Prozess 1: Verkaufsabschluss & Finanzierungsprüfung
+
+- **Ziel:** Rechtssicherer Abschluss des Ratenkaufvertrags.
+    
+- **Enthaltene Aufgaben:** Bedarfsermittlung, Bonitätsprüfung, Vertragserstellung.
+    
+- **Ergebnis:** Unterzeichneter Ratenzahlungsvertrag und verifizierter Kunde.
+    
+
+### Prozess 2: Logistik & Bereitstellung
+
+- **Ziel:** Physische Übergabe der Ware an den Kunden.
+    
+- **Enthaltene Aufgaben:** Warenausgabe oder Versandvorbereitung.
+    
+- **Ergebnis:** Kunde ist im Besitz des Geräts. Lagerbestand ist aktuell.
+    
+
+---
+
+## Aufgabe 3 – Hauptprozess Beschreibung 
+
+**Hauptprozess: End-to-End Abwicklung Gerät-Ratenkauf**
+
+- **Ziel:** Effiziente Bereitstellung von Gerät bei gleichzeitiger Absicherung des Zahlungsausfallrisikos, Gewinn Produktion.
+    
+- **Input:** Kundenkonto, aktueller Lagerbestand, Bonitätsdaten.
+    
+- **Rollen:** 
+	- _Sales Consultant:_ Kundenberatung und Datenerfassung - Swisscom Shop oder online.
+	- SAP _Credit Management System:_ Automatisierte Entscheidung über Kreditvergabe.
+	- Logistik-Zentrum: Versand der Ware bei Online-Bestellung.
+	- Finance:_ Sicherstellung der monatlichen Rechnungen.
+- **Output:** Zufriedener Kunde mit neuem Gerät, rechtsgültiger Vertrag, monatlicher Zahlungseingang (Umsatz).
+
+
+### Detaillierte Prozessschritte:
+
+**Prozess 1: Verkaufsberatung & Bonitätscheck**
+
+- **Ziel:** Sicherstellen, dass der Kunde das richtige Produkt wählt und zahlungsfähig ist.
+    
+- **Teilaufgaben:** Beratung durchführen, Bonität im System prüfen.
+    
+- **Ergebnis:** Freigabe für den Ratenkauf liegt vor.
+    
+
+**Prozess 2: Vertragsmanagement**
+
+- **Ziel:** Dokumentation der monatlichen Verpflichtungen.
+    
+- **Teilaufgaben:** Ratenplan erstellen (z.B. 24 Monate je CHF 40.–), Signatur* des Kunden einholen.
+    
+- **Ergebnis:** Digital archivierter Vertrag.
+
+> [!info] Digitale signatur
+> einen Code per SMS (Zwei-Faktor-Authentifizierung). Das Eingeben dieses Codes gilt rechtlich als Einverständnis zum Vertrag.
+
+
+**Prozess 3: Erfüllung**
+
+- **Ziel:** Ware gelangt zum Kunden.
+    
+- **Teilaufgaben:** Gerät im Shop scannen (IMEI-Nummer verknüpfen ) oder Versandauftrag an das Lager senden.
+    
+- **Ergebnis:** Gerät-Besitzübergang ist erfolgt.
+
+> [!info] IMEI
+> International Mobile Equipment Identity
+
+
+**Prozess 4: Billing**
+
+- **Ziel:** Sicherstellung der monatlichen Raten-Eingänge.
+    
+- **Input:** Signierter Vertrag und IMEI-Daten aus dem POS-System.
+    
+- **Rollen:** Billing-System, Buchhaltung.
+    
+- **Prozessschritte:** Das POS-System meldet den Abschluss an das SAP-Abrechnungssystem(Enterprise Resource Planning system). Dort wird die monatliche Rate als fixer Bestandteil der Kundenrechnung aktiviert.
+    
+- **Output:** Eine kombinierte Rechnung, die automatisch per Lastschrift (LSV) oder Rechnung an den Kunden geht.
+
+
+---
