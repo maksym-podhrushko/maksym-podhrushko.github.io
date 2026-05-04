@@ -156,6 +156,173 @@ GECS wird in 2 subgroups untertielt. Fuer Italienishce rund die Schwiezericher m
 <p>und was zu Die 'Group ExCo Guests'<br>
 sind ständige Gäste der Konzernleitung, haben kein Stimmrecht, aber sie beraten Top Managmenet in der Fragen wie Sicherheit, Nachhaltigkeit, Kommunkation, also Querscnittsthemen.</p>
 <hr>
+<h1 id="kr-1-2-ablauforganisation" tabindex="-1">KR1.2 Ablauforganisation</h1>
+<h2 id="aufgabe-1-aufgabe-auswaehlen-und-analysieren" tabindex="-1">Aufgabe 1 – Aufgabe auswählen und analysieren</h2>
+<p><strong>Aufgabe:</strong> Verkauf eines Smartphones mit Ratenzahlungsvereinbarung.</p>
+<div class="callout" data-callout="info"><div class="callout-title"><div class="callout-title-inner"> Möglich nur mit Abo</div></div></div>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th><strong>Teilaufgabe</strong></th>
+<th><strong>Beschreibung</strong></th>
+<th><strong>Ort</strong></th>
+<th><strong>Verantwortlich</strong></th>
+<th><strong>Bemerkungen</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Beratung</strong></td>
+<td>Beratung des Kunden zu Gerät, Speicherplatz und Farbe.</td>
+<td>Shop oder Online</td>
+<td>Sales Consultant / Kunde selbst</td>
+<td>Fokus auf Kundenbedürfnisse.</td>
+</tr>
+<tr>
+<td><strong>Bonitätsprüfung</strong></td>
+<td>Systemseitige Abfrage der Kreditwürdigkeit (Zahlungsfähigkeit).</td>
+<td>SAP Credit Management</td>
+<td>Credit Risk Management / System</td>
+<td>Automatisiert in Echtzeit.</td>
+</tr>
+<tr>
+<td><strong>Vertragserstellung</strong></td>
+<td>Erstellung des Ratenzahlungsvertrags (Wie lange? Wie viel?).</td>
+<td>POS-System</td>
+<td>Sales Consultant/ Online System</td>
+<td>Rechtlich bindendes Dokument.</td>
+</tr>
+<tr>
+<td><strong>Versand</strong></td>
+<td>Übergabe des Geräts im Shop oder Auslösung des Postversands.</td>
+<td>Lager / Logistikzentrum</td>
+<td>Logistikmitarbeiter / Shop-Personal</td>
+<td>Bestand wird im System abgebucht.</td>
+</tr>
+<tr>
+<td><strong>Rechnungsstellung</strong></td>
+<td>Integration der monatlichen Rate in die Swisscom Mobilfunkrechnung.</td>
+<td>Abrechnungssystem</td>
+<td>Buchhaltung / IT-System</td>
+<td>Monatlicher automatisierter Prozess.</td>
+</tr>
+</tbody>
+</table></div>
+<hr>
+<h2 id="aufgabe-2-prozesse-identifizieren" tabindex="-1">Aufgabe 2 – Prozesse identifizieren</h2>
+<h3 id="prozess-1-verkaufsabschluss-and-amp-finanzierungspruefung" tabindex="-1">Prozess 1: Verkaufsabschluss &amp; Finanzierungsprüfung</h3>
+<ul>
+<li>
+<p><strong>Ziel:</strong> Rechtssicherer Abschluss des Ratenkaufvertrags.</p>
+</li>
+<li>
+<p><strong>Enthaltene Aufgaben:</strong> Bedarfsermittlung, Bonitätsprüfung, Vertragserstellung.</p>
+</li>
+<li>
+<p><strong>Ergebnis:</strong> Unterzeichneter Ratenzahlungsvertrag und verifizierter Kunde.</p>
+</li>
+</ul>
+<h3 id="prozess-2-logistik-and-amp-bereitstellung" tabindex="-1">Prozess 2: Logistik &amp; Bereitstellung</h3>
+<ul>
+<li>
+<p><strong>Ziel:</strong> Physische Übergabe der Ware an den Kunden.</p>
+</li>
+<li>
+<p><strong>Enthaltene Aufgaben:</strong> Warenausgabe oder Versandvorbereitung.</p>
+</li>
+<li>
+<p><strong>Ergebnis:</strong> Kunde ist im Besitz des Geräts. Lagerbestand ist aktuell.</p>
+</li>
+</ul>
+<hr>
+<h2 id="aufgabe-3-hauptprozess-beschreibung" tabindex="-1">Aufgabe 3 – Hauptprozess Beschreibung</h2>
+<p><strong>Hauptprozess: End-to-End Abwicklung Gerät-Ratenkauf</strong></p>
+<ul>
+<li>
+<p><strong>Ziel:</strong> Effiziente Bereitstellung von Gerät bei gleichzeitiger Absicherung des Zahlungsausfallrisikos, Gewinn Produktion.</p>
+</li>
+<li>
+<p><strong>Input:</strong> Kundenkonto, aktueller Lagerbestand, Bonitätsdaten.</p>
+</li>
+<li>
+<p><strong>Rollen:</strong></p>
+<ul>
+<li><em>Sales Consultant:</em> Kundenberatung und Datenerfassung - Swisscom Shop oder online.</li>
+<li>SAP <em>Credit Management System:</em> Automatisierte Entscheidung über Kreditvergabe.</li>
+<li>Logistik-Zentrum: Versand der Ware bei Online-Bestellung.</li>
+<li>Finance:_ Sicherstellung der monatlichen Rechnungen.</li>
+</ul>
+</li>
+<li>
+<p><strong>Output:</strong> Zufriedener Kunde mit neuem Gerät, rechtsgültiger Vertrag, monatlicher Zahlungseingang (Umsatz).</p>
+</li>
+</ul>
+<h3 id="detaillierte-prozessschritte" tabindex="-1">Detaillierte Prozessschritte:</h3>
+<p><strong>Prozess 1: Verkaufsberatung &amp; Bonitätscheck</strong></p>
+<ul>
+<li>
+<p><strong>Ziel:</strong> Sicherstellen, dass der Kunde das richtige Produkt wählt und zahlungsfähig ist.</p>
+</li>
+<li>
+<p><strong>Teilaufgaben:</strong> Beratung durchführen, Bonität im System prüfen.</p>
+</li>
+<li>
+<p><strong>Ergebnis:</strong> Freigabe für den Ratenkauf liegt vor.</p>
+</li>
+</ul>
+<p><strong>Prozess 2: Vertragsmanagement</strong></p>
+<ul>
+<li>
+<p><strong>Ziel:</strong> Dokumentation der monatlichen Verpflichtungen.</p>
+</li>
+<li>
+<p><strong>Teilaufgaben:</strong> Ratenplan erstellen (z.B. 24 Monate je CHF 40.–), Signatur* des Kunden einholen.</p>
+</li>
+<li>
+<p><strong>Ergebnis:</strong> Digital archivierter Vertrag.</p>
+</li>
+</ul>
+<div class="callout" data-callout="info"><div class="callout-title"><div class="callout-title-inner"> Digitale signatur<br></div></div>
+<div class="callout-content">
+<p>
+einen Code per SMS (Zwei-Faktor-Authentifizierung). Das Eingeben dieses Codes gilt rechtlich als Einverständnis zum Vertrag.</p>
+</div></div>
+<p><strong>Prozess 3: Erfüllung</strong></p>
+<ul>
+<li>
+<p><strong>Ziel:</strong> Ware gelangt zum Kunden.</p>
+</li>
+<li>
+<p><strong>Teilaufgaben:</strong> Gerät im Shop scannen (IMEI-Nummer verknüpfen ) oder Versandauftrag an das Lager senden.</p>
+</li>
+<li>
+<p><strong>Ergebnis:</strong> Gerät-Besitzübergang ist erfolgt.</p>
+</li>
+</ul>
+<div class="callout" data-callout="info"><div class="callout-title"><div class="callout-title-inner"> IMEI<br></div></div>
+<div class="callout-content">
+<p>
+International Mobile Equipment Identity</p>
+</div></div>
+<p><strong>Prozess 4: Billing</strong></p>
+<ul>
+<li>
+<p><strong>Ziel:</strong> Sicherstellung der monatlichen Raten-Eingänge.</p>
+</li>
+<li>
+<p><strong>Input:</strong> Signierter Vertrag und IMEI-Daten aus dem POS-System.</p>
+</li>
+<li>
+<p><strong>Rollen:</strong> Billing-System, Buchhaltung.</p>
+</li>
+<li>
+<p><strong>Prozessschritte:</strong> Das POS-System meldet den Abschluss an das SAP-Abrechnungssystem(Enterprise Resource Planning system). Dort wird die monatliche Rate als fixer Bestandteil der Kundenrechnung aktiviert.</p>
+</li>
+<li>
+<p><strong>Output:</strong> Eine kombinierte Rechnung, die automatisch per Lastschrift (LSV) oder Rechnung an den Kunden geht.</p>
+</li>
+</ul>
+<hr>
 </main>
 <script>lucide.createIcons({attrs:{class:["svg-icon"]}})</script>
 </body>
