@@ -176,14 +176,16 @@ Die Nutzergruppe besteht aus den internen Teams der Swiss Studios (Scouts, Proje
 
 #### A) Farbkonzept aller verwendeter Farben
 
-|**Farbe**|**Farbcode**|**Funktion / Nutzung**|
-|---|---|---|
-|🟦 **Primary Blue**|`#0066FF`|Hauptfarbe für Branding, App-Header, aktive Elemente und Call-to-Actions. Vermittelt Professionalität und Modernität.|
-|🟩 **Success Green**|`#00D084`|Positive Aktionen, 'Scout'-Button, Erfolgsbestätigungen und hohe Bewertungen. Signalisiert Zustimmung und positive Entscheidungen.|
-|🟥 **Warning Coral**|`#FF6B6B`|Negative Aktionen, 'Pass'-Button, Ablehnungen. Freundlicher als reines Rot, passt zum modernen App-Design.|
-|⬛ **Deep Black**|`#0F0F0F`|Haupthintergrund der App im Dark Mode. Reduziert Augenbelastung bei häufiger Nutzung und wirkt modern/edgy.|
-|🌑 **Neutral Gray**|`#1A1A1A`|Cards, Container, abgehobene UI-Elemente. Schafft visuelle Hierarchie auf dunklem Hintergrund.|
-|🟪 **Accent Purple**|`#667EEA`|Dekorative Gradienten, Profilbilder, visuelle Akzente. Verleiht der App kreative, jugendliche Ene|
+| **Farbe**            | **Farbcode** | **Funktion / Nutzung**                                                                                                             |
+| -------------------- | ------------ | ---------------------------------------------------------------------------------------------------------------------------------- |
+| 🟦 **Primary Blue**  | `#0066FF`    | Hauptfarbe für Branding, App-Header, aktive Elemente und Call-to-Actions. Vermittelt Professionalität und Modernität.              |
+| 🟩 **Success Green** | `#00D084`    | Positive Aktionen, 'Scout'-Button, Erfolgsbestätigungen und hohe Bewertungen. Signalisiert Zustimmung und positive Entscheidungen. |
+| 🟥 **Warning Coral** | `#FF6B6B`    | Negative Aktionen, 'Pass'-Button, Ablehnungen. Freundlicher als reines Rot, passt zum modernen App-Design.                         |
+| ⬛ **Deep Black**     | `#0F0F0F`    | Haupthintergrund der App im Dark Mode. Reduziert Augenbelastung bei häufiger Nutzung und wirkt modern/edgy.                        |
+| 🌑 **Neutral Gray**  | `#1A1A1A`    | Cards, Container, abgehobene UI-Elemente. Schafft visuelle Hierarchie auf dunklem Hintergrund.                                     |
+| 🟪 **Accent Purple** | `#667EEA`    | Dekorative Gradienten, Profilbilder, visuelle Akzente. Verleiht der App kreative, jugendliche Ene                                  |
+
+
 **Begründung der Farbauswahl:**
 Die Farbpalette wurde speziell für eine Gen-Z Marketing-Agentur entwickelt und vereint Professionalität mit moderner Ästhetik.
 Der Dark Mode (#0F0F0F) reduziert Augenbelastung bei häufiger mobiler Nutzung und wirkt zeitgemäss. 
@@ -213,7 +215,7 @@ Das Logo für 'VS – Vote & Scout' kombiniert Einfachheit mit Wiedererkennung. 
 Die folgenden Mockups zeigen die zwei Kernansichten der VS-App: Den Talent Review Screen für schnelles Swiping und den Detail Screen für vertiefte Bewertungen. 
 #### Mockup 1: Talent Review Screen (Swipe Interface)
 
-![Pasted image 20260505084032.png](/img/user/Pasted%20image%2020260505084032.png)
+![Pasted image 20260505084032.png](/img/user/Img/Pasted%20image%2020260505084032.png)
 
 Hauptfunktion: Schnelle Erstbewertung von eingehenden Talent-Anfragen durch Swipe-Gesten oder Button-Klicks.
 
@@ -232,7 +234,7 @@ Hauptfunktion: Schnelle Erstbewertung von eingehenden Talent-Anfragen durch Swip
 
 #### Mockup 2: Request Detail Screen
 
-![Pasted image 20260505084102.png](/img/user/Pasted%20image%2020260505084102.png)![Pasted image 20260505084229.png](/img/user/Pasted%20image%2020260505084229.png)
+![Pasted image 20260505084102.png](/img/user/Img/Pasted%20image%2020260505084102.png)![Pasted image 20260505084229.png](/img/user/Img/Pasted%20image%2020260505084229.png)
 
 Hauptfunktion: Detaillierte Bewertung mit erweiterten Informationen und Team-Feedback-Anzeige.
 
@@ -258,6 +260,6 @@ Hauptfunktion: Detaillierte Bewertung mit erweiterten Informationen und Team-Fee
 
 #### Storyboard
 
-![Pasted image 20260505092340.png](/img/user/Pasted%20image%2020260505092340.png)
+![Pasted image 20260505092340.png](/img/user/Img/Pasted%20image%2020260505092340.png)
 
 
