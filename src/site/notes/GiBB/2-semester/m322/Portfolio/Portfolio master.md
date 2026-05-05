@@ -41,15 +41,25 @@
 
 **Firmengrösse:** 30 festangestellte Mitarbeitende (Spezialisten für Design, Art Direction und Strategie).
 
-**Geschäftsgebiet & Marktanteil:** Swiss Studios ist eine junge, hochdynamische Boutique-Agentur für Marketing und Brand Activation. Das Unternehmen hat sich auf die Schnittstelle zwischen klassischer Werbung und modernem, viralem Content spezialisiert. Nach einer erfolgreichen nationalen Kampagne im letzten Jahr verzeichnet die Agentur aktuell ein massives Wachstum. In der Nische für „Gen-Z Marketing“ hält Swiss Studios mittlerweile einen geschätzten Marktanteil von ca. 8 % und gilt als einflussreiche Agentur für jugendkulturelle Trends in der Schweiz.
+**Geschäftsgebiet & Marktanteil:** 
+Swiss Studios ist eine junge, hochdynamische Boutique-Agentur für Marketing und Brand Activation. Das Unternehmen hat sich auf die Schnittstelle zwischen klassischer Werbung und modernem, viralem Content spezialisiert. 
 
-**Kunden & Zielgruppe:** Die Kundenstruktur ist durch den Erfolg drastisch gewachsen: Das Portfolio reicht von lokalen Streetwear-Labels und Lifestyle-Gastronomie bis hin zu globalen Konzernen (Getränke, Tech, Fashion), welche die junge Zielgruppe (14–30 Jahre) erreichen wollen. Die Kundengrösse variiert stark, doch alle suchen den modernen Look, für den Swiss Studios bekannt ist.
+Nach einer erfolgreichen nationalen Kampagne im letzten Jahr verzeichnet die Agentur aktuell ein massives Wachstum. In der Nische für „Gen-Z Marketing“ hält Swiss Studios mittlerweile einen geschätzten Marktanteil von ca. 8 % und gilt als einflussreiche Agentur für jugendkulturelle Trends in der Schweiz.
 
-**Wirtschaftliche Ziele:** Das primäre Ziel ist die Skalierung der Agentur bei gleichbleibender Qualität. Da Swiss Studios wöchentlich mit hunderten Kooperationsanfragen überflutet wird, muss der Selektionsprozess technologisch optimiert werden. Wirtschaftlich strebt die Agentur eine maximale Effizienz bei der Projektauswahl an, um nur die profitabelsten und prestigeträchtigsten Aufträge anzunehmen. Dabei ist die vollständige Identifikation des gesamten 30-köpfigen Teams mit den Projekten zentral („Culture first“), um die Marktposition zu behaupten.
+**Kunden & Zielgruppe:** 
+Die Kundenstruktur ist durch den Erfolg drastisch gewachsen: Das Portfolio reicht von lokalen Streetwear-Labels und Lifestyle-Gastronomie bis hin zu globalen Konzernen (Getränke, Tech, Fashion), welche die junge Zielgruppe (14–30 Jahre) erreichen wollen. Die Kundengrösse variiert stark, doch alle suchen den modernen Look, für den Swiss Studios bekannt ist.
 
-**Ausgangslage & Problem:** Bisher leidet die Effizienz von Swiss Studios unter einem ungefilterten Zustrom an Kundenanfragen. Die Kommunikation zwischen potenziellen Kunden und der Agentur ist fragmentiert (E-Mails, LinkedIn, Telefonate), was zu Informationsverlust führt. Zudem werden Entscheidungen über Projektabsagen oder -zusagen oft subjektiv in langen Meetings getroffen. Dies führt bei 30 Mitarbeitenden zu Zeitverlusten und Frustration, da sich nicht alle in den Entscheidungsprozess involviert fühlen.
+**Wirtschaftliche Ziele:** 
+Das primäre Ziel ist die Skalierung der Agentur bei gleichbleibender Qualität. Da Swiss Studios wöchentlich mit hunderten Kooperationsanfragen überflutet wird, muss der Selektionsprozess technologisch optimiert werden. 
 
-**Die Lösung: VS – Vote & Scout** Die App optimiert den gesamten Akquise-Prozess durch folgende Punkte:
+Wirtschaftlich strebt die Agentur eine maximale Effizienz bei der Projektauswahl an, um nur die profitabelsten und prestigeträchtigsten Aufträge anzunehmen. Dabei ist die vollständige Identifikation des gesamten 30-köpfigen Teams mit den Projekten zentral („Culture first“), um die Marktposition zu behaupten.
+
+**Ausgangslage & Problem:** 
+Bisher leidet die Effizienz von Swiss Studios unter einem ungefilterten Zustrom an Kundenanfragen. Die Kommunikation zwischen potenziellen Kunden und der Agentur ist fragmentiert (E-Mails, LinkedIn, Telefonate), was zu Informationsverlust führt. 
+
+Zudem werden Entscheidungen über Projektabsagen oder -zusagen oft subjektiv in langen Meetings getroffen. Dies führt bei 30 Mitarbeitenden zu Zeitverlusten und Frustration, da sich nicht alle in den Entscheidungsprozess involviert fühlen.
+
+**Die Lösung: VS – Vote & Scout** Die App optimiert den gesamten Entscheidung-Prozess durch folgende Punkte:
 
 - **Effiziente Kommunikation:** Durch eine standardisierte Eingabemaske werden alle relevanten Daten (Budget, Timeline, Stilrichtung) sofort strukturiert erfasst.
     
@@ -68,7 +78,9 @@
 
 **Thema:** Interne Kollaborations- und Entscheidungsplattform für Projekt-Anfragen
 
-**Ziel des künftigen Nutzers:** Die Mitarbeitenden der Swiss Studios müssen effizient über die Zusammenarbeit mit externen Künstlern, DJs und Influencern entscheiden. Das Ziel ist eine datengestützte und durch das Team validierte Auswahl von Partnern für spezifische Kundenprojekte (Kooperationen).
+**Ziel des künftigen Nutzers:** Die Mitarbeitenden der Swiss Studios müssen effizient über die Zusammenarbeit mit externen Künstlern, DJs und Influencern entscheiden. 
+
+Das Ziel ist eine datengestützte und durch das Team validierte Auswahl von Partnern für spezifische Kundenprojekte (Kooperationen).
 
 **Typische Abläufe:** 1. **Anfrage-Eingang:** Bewerbungen von Talenten fliessen automatisch in den Pool von "VS".
 
@@ -99,7 +111,11 @@
 
 **Ausgewählte Plattform:** Mobile Applikation (Android/iOS)
 
-**Begründung:** Das "Voten & Scouten" ist ein Prozess, der von Spontaneität und visueller Beurteilung lebt. Da die Mitarbeiter der Swiss Studios AG eine hohe Affinität zu mobilen Endgeräten haben und oft vor Ort bei Kunden oder auf Events sind, bietet eine Mobile App die grösste Flexibilität. Die Touch-Bedienung ermöglicht zudem ein intuitives und schnelles Voting-Erlebnis (z.B. Swipe-Gesten), was die Effizienz im Vergleich zu einer Desktop-Lösung steigert.
+**Begründung:** Das "Voten & Scouten" ist ein Prozess, der von Spontaneität und visueller Beurteilung lebt. 
+
+Da die Mitarbeiter der Swiss Studios AG eine hohe Affinität zu mobilen Endgeräten haben und oft vor Ort bei Kunden oder auf Events sind, bietet eine Mobile App die grösste Flexibilität. 
+
+Die Touch-Bedienung ermöglicht zudem ein intuitives und schnelles Voting-Erlebnis (z.B. Swipe-Gesten), was die Effizienz im Vergleich zu einer Desktop-Lösung steigert.
 
 ---
 
@@ -205,9 +221,14 @@ Die Nutzergruppe besteht aus den internen Teams der Swiss Studios (Scouts, Proje
 
 **Begründung der Farbauswahl:**
 Die Farbpalette wurde speziell für eine Gen-Z Marketing-Agentur entwickelt und vereint Professionalität mit moderner Ästhetik.
+
 Der Dark Mode (#0F0F0F) reduziert Augenbelastung bei häufiger mobiler Nutzung und wirkt zeitgemäss. 
+
 Das Primary Blue (#0066FF) vermittelt Vertrauen und Seriosität, während Success Green (#00D084) und Warning Coral (#FF6B6B) intuitive Signale für Entscheidungen geben – wichtig für die schnelle Voting-Funktionalität. 
-Der Purple-Gradient (#667EEA) fügt kreative Energie hinzu, ohne vom Kernprozess abzulenken. Diese Kombination optimiert die User Experience für spontane, visuelle Entscheidungen und spiegelt die 'Edge'-Identität von Swiss Studios wider.
+
+Der Purple-Gradient (#667EEA) fügt kreative Energie hinzu, ohne vom Kernprozess abzulenken. 
+
+Diese Kombination optimiert die User Experience für spontane, visuelle Entscheidungen und spiegelt die 'Edge'-Identität von Swiss Studios wider.
 #### B) Schriftkonzept aller verwendeter Schriftarten
 
 Das Schriftkonzept setzt auf maximale Klarheit, eine konsistente visuelle Sprache und moderne Ästhetik. Durch die exklusive Nutzung der Sans-Serif-Schriftfamilie „Inter“ wird ein nahtloses, minimalistisches UI-Erlebnis geschaffen, das die schnelle Informationsaufnahme auf mobilen Geräten perfekt unterstützt.
@@ -224,7 +245,9 @@ Das Logo für 'VS – Vote & Scout' kombiniert Einfachheit mit Wiedererkennung. 
 > **VS** VOTE & SCOUT _(Beispielhafte Darstellung in Primary Blue / Weiss)_
    
 
-**Begründung des Logo-Designs:** Das VS-Monogramm ist bewusst minimalistisch gehalten – es funktioniert perfekt als 36x36px App-Icon auf Smartphones und bleibt auch bei kleinen Grössen erkennbar. Die Abkürzung 'VS' hat eine Doppelbedeutung: 'Vote & Scout' und das englische 'versus' (gegeneinander), was den Voting-Mechanismus subtil andeutet.
+**Begründung des Logo-Designs:** Das VS-Monogramm ist bewusst minimalistisch gehalten – es funktioniert perfekt als 36x36px App-Icon auf Smartphones und bleibt auch bei kleinen Grössen erkennbar. 
+
+Die Abkürzung 'VS' hat eine Doppelbedeutung: 'Vote & Scout' und das englische 'versus' (gegeneinander), was den Voting-Mechanismus subtil andeutet.
 
 
 ### Bereich 2
