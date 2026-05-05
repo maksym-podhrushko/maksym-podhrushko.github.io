@@ -45,8 +45,10 @@ Firma: Swisscom AG
 ---
 
 # Inhaltsverzeichnis
-1. [Handlungsziel 1](#handlungsziel-1)
-    - [KR1.1 Organigramm](#kr11-organigramm)
+1. [[GiBB/2-semester/m254/Portfolio/Portfolio master#Handlungsziel 1\|#Handlungsziel 1]]
+    - [[GiBB/2-semester/m254/Portfolio/Portfolio master#KR1.1 Organigramm\|#KR1.1 Organigramm]]
+    - [[GiBB/2-semester/m254/Portfolio/Portfolio master#KR1.2 Ablauforganisation\|#KR1.2 Ablauforganisation]]
+    - [[GiBB/2-semester/m254/Portfolio/Portfolio master#KR1.3 Grundlagen Geschäftsprozesse\|#KR1.3 Grundlagen Geschäftsprozesse]]
 
 ---
 
