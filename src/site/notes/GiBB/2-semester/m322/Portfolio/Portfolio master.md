@@ -128,21 +128,29 @@ Die Nutzergruppe besteht aus den internen Teams der Swiss Studios (Scouts, Proje
 
 - **Frage: Welches Endgerät nutzt du primär für VS?** * _Antwort:_ Definitiv mein iPhone 15 Pro. Ich bin oft in der Stadt unterwegs oder sitze im Café. Ich will Anfragen schnell zwischendurch checken.
     
-- **Frage: Wann und wie lange nutzt du die App täglich?** * _Antwort:_ Immer wenn Push-Nachrichten reinkommen. Über den Tag verteilt sicher 0.5 bis 1 Stunden in kurzen Sessions von jeweils 5 Minuten.
+- **Frage: Wann und wie lange nutzt du die App täglich?**
+	* _Antwort:_ Immer wenn Push-Nachrichten reinkommen. Über den Tag verteilt sicher 0.5 bis 1 Stunden in kurzen Sessions von jeweils 5 Minuten.
     
-- **Frage: Was ist der Hauptzweck der Nutzung für dich?** * _Antwort:_ Ich muss den "Müll" aussortieren. Wenn ein Budget lächerlich ist oder der Brand gar nicht zu uns passt, will ich das sofort wegklicken, damit das Team keine Zeit verliert.
+- **Frage: Was ist der Hauptzweck der Nutzung für dich?** 
+	* _Antwort:_ Ich muss den "Müll" aussortieren. Wenn ein Budget lächerlich ist oder der Brand gar nicht zu uns passt, will ich das sofort wegklicken, damit das Team keine Zeit verliert.
     
-- **Frage: Welche Erfahrungen hast du mit ähnlichen Produkten?** * _Antwort:_ Ich nutze privat viel Tinder und Instagram. Ich liebe flüssige Gesten. Komplexe Tabellen in Excel hasse ich.
+- **Frage: Welche Erfahrungen hast du mit ähnlichen Produkten?** 
+	* _Antwort:_ Ich nutze privat viel Tinder und Instagram. Ich liebe flüssige Gesten. Komplexe Tabellen in Excel hasse ich.
     
-- **Zusatzfrage 1: Was frustriert dich aktuell am meisten am Prozess?** * _Antwort:_ Dass Anfragen oft unvollständig sind. Wenn ich dem Kunden erst hinterherrennen muss, um das Budget zu erfahren, nervt das.
+- **Zusatzfrage 1: Was frustriert dich aktuell am meisten am Prozess?** 
+	* _Antwort:_ Dass Anfragen oft unvollständig sind. Wenn ich dem Kunden erst hinterherrennen muss, um das Budget zu erfahren, nervt das.
     
-- **Zusatzfrage 2: Woran erkennst du sofort, ob ein Projekt "cool" ist?** * _Antwort:_ Am Moodboard-Link oder dem Instagram-Handle des Kunden. Wenn der Vibe stimmt, bin ich dabei.
+- **Zusatzfrage 2: Woran erkennst du sofort, ob ein Projekt "cool" ist?** 
+	* _Antwort:_ Am Moodboard-Link oder dem Instagram-Handle des Kunden. Wenn der Vibe stimmt, bin ich dabei.
     
-- **Zusatzfrage 3: Wie wichtig ist dir das Feedback der Kollegen?** * _Antwort:_ Sehr! Wenn drei andere Mitarbeitende schreiben "Das ist langweilig", dann überdenke ich meine Meinung nochmal.
+- **Zusatzfrage 3: Wie wichtig ist dir das Feedback der Kollegen?** 
+	* _Antwort:_ Sehr! Wenn drei andere Mitarbeitende schreiben "Das ist langweilig", dann überdenke ich meine Meinung nochmal.
     
-- **Zusatzfrage 4: Bevorzugst du Swipes oder Buttons?** * _Antwort:_ Swipes für das schnelle "Ja/Nein", aber Buttons für spezifische Bewertungen wie "Budget" oder "Kreativität".
+- **Zusatzfrage 4: Bevorzugst du Swipes oder Buttons?** 
+	* _Antwort:_ Swipes für das schnelle "Ja/Nein", aber Buttons für spezifische Bewertungen wie "Budget" oder "Kreativität".
     
-- **Zusatzfrage 5: Welche Info brauchst du auf den ersten Blick?** * _Antwort:_ Deadline und Budget. Ohne diese Daten schaue ich mir den Rest gar nicht erst an.
+- **Zusatzfrage 5: Welche Info brauchst du auf den ersten Blick?** 
+	* _Antwort:_ Deadline und Budget. Ohne diese Daten schaue ich mir den Rest gar nicht erst an.
     
 
 ---
@@ -153,23 +161,32 @@ Die Nutzergruppe besteht aus den internen Teams der Swiss Studios (Scouts, Proje
 
 **Zweck:** Finale Projektauswahl und Ressourcenplanung.
 
-- **Frage: Welches Endgerät nutzt du für VS?** * _Antwort:_ Meistens mein iPad Pro im Büro oder mein MacBook, wenn ich die Daten im Meeting auf den Screen spiegele.
+- **Frage: Welches Endgerät nutzt du für VS?** 
+	* _Antwort:_ Meistens mein iPad Pro im Büro oder mein MacBook, wenn ich die Daten im Meeting auf den Screen spiegele.
     
-- **Frage: Wann und wie lange nutzt du die App?** * _Antwort:_ Intensiv am Montagmorgen vor dem Team-Meeting (ca. 45 Min) und abends, um die Favoriten des Tages zu sehen.
+- **Frage: Wann und wie lange nutzt du die App?** 
+	* _Antwort:_ Intensiv am Montagmorgen vor dem Team-Meeting (ca. 45 Min) und abends, um die Favoriten des Tages zu sehen.
     
-- **Frage: Was ist der Hauptzweck der Nutzung?** * _Antwort:_ Ich schaue mir das aggregierte Voting an. Ich will wissen: "Brennt das Team für diesen Auftrag?"
+- **Frage: Was ist der Hauptzweck der Nutzung?** 
+	* _Antwort:_ Ich schaue mir das aggregierte Voting an. Ich will wissen: "Brennt das Team für diesen Auftrag?"
     
-- **Frage: Welche Erfahrungen hast du mit ähnlichen Produkten?** * _Antwort:_ Ich kenne Jira und Slack-Polls, aber die sind mir zu "trocken" und unübersichtlich für kreative Entscheidungen.
+- **Frage: Welche Erfahrungen hast du mit ähnlichen Produkten?** 
+	* _Antwort:_ Ich kenne Jira und Slack-Polls, aber die sind mir zu "trocken" und unübersichtlich für kreative Entscheidungen.
     
-- **Zusatzfrage 1: Worauf achtest du bei der Reputation des Kunden?** * _Antwort:_ Passt der Brand zu unserem Image? Wir wollen keine Kunden, die unseren Ruf als "Edge-Agentur" ruinieren, egal wie viel sie zahlen.
+- **Zusatzfrage 1: Worauf achtest du bei der Reputation des Kunden?** 
+	* _Antwort:_ Passt der Brand zu unserem Image? Wir wollen keine Kunden, die unseren Ruf als "Edge-Agentur" ruinieren, egal wie viel sie zahlen.
     
-- **Zusatzfrage 2: Wie wichtig sind dir die Kommentare der Mitarbeiter?** * _Antwort:_ Enorm wichtig. Oft sieht ein Junior einen Trend, den ich übersehen habe.
+- **Zusatzfrage 2: Wie wichtig sind dir die Kommentare der Mitarbeiter?** 
+	* _Antwort:_ Enorm wichtig. Oft sieht ein Junior einen Trend, den ich übersehen habe.
     
-- **Zusatzfrage 3: Brauchst du Analysen oder nur Einzelergebnisse?** * _Antwort:_ Ich brauche Diagramme. Ich will sehen, wie die Stimmung im Team über die letzten 20 Anfragen war.
+- **Zusatzfrage 3: Brauchst du Analysen oder nur Einzelergebnisse?** 
+	* _Antwort:_ Ich brauche Diagramme. Ich will sehen, wie die Stimmung im Team über die letzten 20 Anfragen war.
     
-- **Zusatzfrage 4: Wie gehst du mit "Grenzfällen" um?** * _Antwort:_ Dafür nutze ich die "On Hold" Funktion in der App, um das Thema im Meeting persönlich zu besprechen.
+- **Zusatzfrage 4: Wie gehst du mit "Grenzfällen" um?** 
+	* _Antwort:_ Dafür nutze ich die "On Hold" Funktion in der App, um das Thema im Meeting persönlich zu besprechen.
     
-- **Zusatzfrage 5: Was fehlt dir in aktuellen Tools am meisten?** * _Antwort:_ Die visuelle Zusammenführung von Budget-Validierung und Team-Begeisterung auf einer Seite.
+- **Zusatzfrage 5: Was fehlt dir in aktuellen Tools am meisten?** 
+	* _Antwort:_ Die visuelle Zusammenführung von Budget-Validierung und Team-Begeisterung auf einer Seite.
 ## 6. Auftrag LB1: Application Preview
 
 ### Bereich 1
