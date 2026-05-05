@@ -195,11 +195,11 @@ Der Purple-Gradient (#667EEA) fügt kreative Energie hinzu, ohne vom Kernprozess
 
 Das Schriftkonzept setzt auf maximale Klarheit, eine konsistente visuelle Sprache und moderne Ästhetik. Durch die exklusive Nutzung der Sans-Serif-Schriftfamilie „Inter“ wird ein nahtloses, minimalistisches UI-Erlebnis geschaffen, das die schnelle Informationsaufnahme auf mobilen Geräten perfekt unterstützt.
 
-| **Schriftart**                                     | **Quelle**   | **Funktion / Nutzung**                                                                                                                            |
-| -------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Inter**<br><br>  <br><br>SemiBold (600), 24-28pt | Google Fonts | **Logo, Branding & Grosse Titel** – Kraftvoll und markant für die VS-Wortmarke, Header und wichtige Namensnennungen.                              |
-| **Inter**<br><br>  <br><br>Medium (500), 16-18pt   | Google Fonts | **UI-Elemente & Sub-Headings** – Perfekte Lesbarkeit für Navigation, Buttons, Labels und hervorgehobene Statistiken.                              |
-| Inter<br><br>  <br><br>Regular (400), 14-16pt      | Google Fonts | **Fliesstext & Details** – Body Text, Beschreibungen und sekundäre Daten. Optimale Lesbarkeit auch bei kleinen Schriftgrössen auf mobilen Screens |
+| **Schriftart**                       | **Funktion / Nutzung**                                                                                                                            |
+| ------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Inter**<br>SemiBold (600), 24-28pt | **Logo, Branding & Grosse Titel** – Kraftvoll und markant für die VS-Wortmarke, Header und wichtige Namensnennungen.                              |
+| **Inter**<br>Medium (500), 16-18pt   | **UI-Elemente & Sub-Headings** – Perfekte Lesbarkeit für Navigation, Buttons, Labels und hervorgehobene Statistiken.                              |
+| Inter<br>Regular (400), 14-16pt      | **Fliesstext & Details** – Body Text, Beschreibungen und sekundäre Daten. Optimale Lesbarkeit auch bei kleinen Schriftgrössen auf mobilen Screens |
 #### C) Logo
 
 Das Logo für 'VS – Vote & Scout' kombiniert Einfachheit mit Wiedererkennung. Es besteht aus einem markanten Monogramm und einem optionalen Schriftzug.
