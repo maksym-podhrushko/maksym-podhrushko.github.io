@@ -300,5 +300,5 @@ Hauptfunktion: Detaillierte Bewertung mit erweiterten Informationen und Team-Fee
 
 #### Storyboard
 
-![Pasted image 20260505095700.png](/img/user/Pasted%20image%2020260505095700.png)
-![Pasted image 20260505095757.png](/img/user/Pasted%20image%2020260505095757.png)
+![Pasted image 20260505095700.png](/img/user/Img/Pasted%20image%2020260505095700.png)
+![Pasted image 20260505095757.png](/img/user/Img/Pasted%20image%2020260505095757.png)
