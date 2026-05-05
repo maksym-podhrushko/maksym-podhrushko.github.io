@@ -296,3 +296,184 @@ Am Ende steht ein Kunde, der ein funktionierendes Gerät besitzt, dessen Finanzi
 Wenn nur ein Teil der Kette funktioniert z. B. das Gerät wird geliefert, aber das Billing-System die Rate nicht erfasst, macht Swisscom keinen Gewinn.
 
 Funktioniert das Billing, aber die Logistik ist zu langsam, ist der Kunde unzufrieden. Nur die Betrachtung von Anfang bis Ende garantiert den Geschäftserfolg.
+
+
+# KR1.4 Prozess-Map
+
+![Pasted image 20260505150800.png](/img/user/Img/Pasted%20image%2020260505150800.png)
+#### Prozesse sammeln
+
+#### 1. Managementprozesse
+
+Diese steuern die strategische Ausrichtung des Unternehmens:
+
+1. **Unternehmensstrategie & Planung**
+2. **Finanzmanagement & Controlling**
+3. **Risikomanagement & Compliance**
+4. **Corporate Governance & Nachhaltigkeit**
+5. **Innovations- und Technologiemanagement**
+6. **Partnerschaften & Stakeholder-Management**
+
+---
+
+#### 2. Kernprozesse
+
+Diese Prozesse erzeugen direkt Kundennutzen:
+
+7. **Produkt- & Serviceentwicklung (z. B. Mobile, Internet, TV)**
+8. **Netzplanung, -bau und -betrieb (Telekommunikationsinfrastruktur)**
+9. **Marketing & Vertrieb (B2C & B2B)**
+10. **Kundenberatung & Verkauf (Shops, Online, Hotline)**
+11. **Servicebereitstellung (Provisioning von Anschlüssen/Diensten)**
+12. **Kundendienst & Support (Helpdesk, Störungsbehebung)**
+13. **Abrechnung & Billing (Rechnungsstellung, Zahlungsabwicklung)**
+
+---
+
+#### 3. Supportprozesse 
+
+Diese sichern den reibungslosen Ablauf:
+
+14. **Human Resources (Recruiting, Ausbildung, Entwicklung)**
+15. **Beschaffung & Lieferantenmanagement**
+16. **Recht & Datenschutz**
+17. **Facility Management (Standorte, Infrastruktur)**
+18. **Qualitätsmanagement & Prozessoptimierung**
+19. **Interne Kommunikation & Change Management**
+
+
+#### Map aufbauen
+
+![Pasted image 20260505165745.png](/img/user/Img/Pasted%20image%2020260505165745.png)
+#### Prozesse beschreiben
+| Prozess                                                   | Input                                                          | Verarbeitung                                                                         | Output                                      |
+| --------------------------------------------------------- | -------------------------------------------------------------- | ------------------------------------------------------------------------------------ | ------------------------------------------- |
+| P1 Kundenberatung & Verkauf (Kernprozess)                 | Mündliche oder digitale Kundenanfrage (Shop, Hotline, Website) | Bedarf analysieren, Kundendaten erfassen, passende Produkte/Dienstleistungen beraten | Dokumentierte Kundenanforderungen           |
+| P2 Marketing & Vertrieb (Kernprozess)                     | Kundenanforderungen, Produktkatalog                            | Passendes Angebot erstellen, Preise berechnen, Offerte formulieren                   | Individuelles Angebot                       |
+| P3 Marketing & Vertrieb (Kernprozess – Vertragsabschluss) | Angebot                                                        | Angebot prüfen, Kundenzustimmung einholen, Vertrag erfassen                          | Abgeschlossener Vertrag                     |
+| P4 Servicebereitstellung (Kernprozess)                    | Vertrag, Kundendaten, gebuchte Services                        | SIM aktivieren, Anschluss aufschalten, Systeme konfigurieren                         | Aktivierter Telekommunikationsdienst        |
+| P5 Kundendienst & Support (Kernprozess)                   | Störungsmeldung oder Supportanfrage                            | Problem analysieren, Lösung durchführen, Kunde informieren                           | Gelöstes Problem / funktionierender Service |
+| P6 Human Resources (Supportprozess)                       | Personalbedarf aus Fachabteilungen                             | Stelle ausschreiben, Bewerbungen prüfen, Interviews durchführen, Auswahl treffen     | Eingestellte Mitarbeitende                  |
+# KR1.5 Abhängigkeiten
+
+![Pasted image 20260505171511.png](/img/user/Img/Pasted%20image%2020260505171511.png)
+
+#### Schnittstelle 1
+
+**Bezeichnung:** Kundenanforderungen → Angebot  
+**Von Prozess:** P1 Kundenberatung & Verkauf (Kernprozess)  
+**Zu Prozess:** P2 Marketing & Vertrieb (Kernprozess)
+
+**Informationen:**  
+Kundenbedarf, gewünschte Produkte/Dienstleistungen, Kundendaten
+
+**Form / Format:**  
+CRM-System, digitale Erfassung (Formular, Beratungssystem)
+
+**Verantwortlichkeiten:**  
+Kundenberater erfasst Daten, Vertrieb erstellt Angebot
+
+**Abgrenzung:**  
+Nur vollständig erfasste und geprüfte Anforderungen werden übergeben
+
+---
+
+#### Schnittstelle 2
+
+**Bezeichnung:** Angebot → Vertragsabschluss  
+**Von Prozess:** P2 Marketing & Vertrieb (Kernprozess)  
+**Zu Prozess:** P3 Marketing & Vertrieb (Kernprozess – Vertragsabschluss)
+
+**Informationen:**  
+Produktdetails, Preise, Vertragskonditionen
+
+**Form / Format:**  
+Digitales Angebot im CRM / PDF
+
+**Verantwortlichkeiten:**  
+Vertrieb erstellt Angebot, Kunde bestätigt
+
+**Abgrenzung:**  
+Änderungen führen zu neuer Angebotsversion
+
+---
+
+#### Schnittstelle 3
+
+**Bezeichnung:** Vertrag → Servicebereitstellung  
+**Von Prozess:** P3 Marketing & Vertrieb (Kernprozess – Vertragsabschluss)  
+**Zu Prozess:** P4 Servicebereitstellung (Kernprozess)
+
+**Informationen:**  
+Vertragsdaten, Kundendaten, gebuchte Services
+
+**Form / Format:**  
+Automatische Übergabe (ERP-/Provisioning-System)
+
+**Verantwortlichkeiten:**  
+Vertrieb übergibt, Technik setzt um
+
+**Abgrenzung:**  
+Nur freigegebene und aktive Verträge werden verarbeitet
+
+---
+
+#### Schnittstelle 4
+
+**Bezeichnung:** Serviceinformationen → Kundendienst  
+**Von Prozess:** P4 Servicebereitstellung (Kernprozess)  
+**Zu Prozess:** P5 Kundendienst & Support (Kernprozess)
+
+**Informationen:**  
+Service-Status, technische Konfiguration, Kundendaten
+
+**Form / Format:**  
+CRM- und Supportsysteme
+
+**Verantwortlichkeiten:**  
+Technik dokumentiert, Support greift darauf zu
+
+**Abgrenzung:**  
+Support nutzt Daten, verändert aber keine Systemkonfiguration
+
+---
+
+#### Schnittstelle 5
+
+**Bezeichnung:** Störung → technische Bearbeitung  
+**Von Prozess:** P5 Kundendienst & Support (Kernprozess)  
+**Zu Prozess:** P4 Servicebereitstellung (Kernprozess)
+
+**Informationen:**  
+Fehlerbeschreibung, Ticketnummer, Priorität
+
+**Form / Format:**  
+Ticketsystem
+
+**Verantwortlichkeiten:**  
+Support erstellt Ticket, Technik bearbeitet
+
+**Abgrenzung:**  
+Bearbeitung nur bei vollständig dokumentierten Tickets
+
+---
+
+#### Schnittstelle 6 (Supportprozess)
+
+**Bezeichnung:** Personalbedarf → Rekrutierung  
+**Von Prozess:** P4 Servicebereitstellung (Kernprozess)  
+**Zu Prozess:** P6 Human Resources (Supportprozess)
+
+**Informationen:**  
+Stellenbedarf, Qualifikationsanforderungen
+
+**Form / Format:**  
+HR-System, interne Anfrage
+
+**Verantwortlichkeiten:**  
+Fachabteilung meldet Bedarf, HR führt Rekrutierung durch
+
+**Abgrenzung:**  
+HR verantwortet Prozess, Fachbereich entscheidet fachlich mit
+
+---
