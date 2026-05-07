@@ -20,19 +20,29 @@
 
 ---
 ## Inhaltsverzeichnis
+ 
+[[GiBB/2-semester/m322/Portfolio/Portfolio master#1. Beschreibung des Auftraggebers\|1. Beschreibung des Auftraggebers]]
 
-1. [[GiBB/2-semester/m322/Portfolio/Portfolio master#1. Beschreibung des Auftraggebers\|#1. Beschreibung des Auftraggebers]]
-    
-2. [[GiBB/2-semester/m322/Portfolio/Portfolio master#2. Fallbeispiel VS – Vote & Scout\|#2. Fallbeispiel VS – Vote & Scout]]
-    
-3. [[GiBB/2-semester/m322/Portfolio/Portfolio master#3. Primäre Zielplattform\|#3. Primäre Zielplattform]]
-    
-4. [[GiBB/2-semester/m322/Portfolio/Portfolio master#4. Nutzeranalyse\|#4. Nutzeranalyse]]
-    
-5. [[GiBB/2-semester/m322/Portfolio/Portfolio master#5. Auftrag LB1 Fiktive Interviews für "VS – Vote & Scout"\|#5. Auftrag LB1 Fiktive Interviews für "VS – Vote & Scout"]]
-       
-6. [[GiBB/2-semester/m322/Portfolio/Portfolio master#6. Auftrag LB1 Application Preview\|#6. Auftrag LB1 Application Preview]]
-    
+[[GiBB/2-semester/m322/Portfolio/Portfolio master#2. Fallbeispiel VS – Vote & Scout\|2. Fallbeispiel VS – Vote & Scout]]
+
+[[GiBB/2-semester/m322/Portfolio/Portfolio master#3. Primäre Zielplattform\|3. Primäre Zielplattform]]
+
+[[GiBB/2-semester/m322/Portfolio/Portfolio master#4. Nutzeranalyse\|4. Nutzeranalyse]]
+
+[[GiBB/2-semester/m322/Portfolio/Portfolio master#5. Auftrag LB1: Analyse & Anforderungen\|5. Auftrag LB1: Analyse & Anforderungen]]
+
+[[GiBB/2-semester/m322/Portfolio/Portfolio master#5.1 AB01.1 Fiktive Interviews & Personas\|5.1 AB01.1 Fiktive Interviews & Personas]]
+
+[[GiBB/2-semester/m322/Portfolio/Portfolio master#5.2 AB01.2 Anforderungen für Vorhaben / Produkt\|5.2 AB01.2 Anforderungen für Vorhaben / Produkt]]
+
+[[GiBB/2-semester/m322/Portfolio/Portfolio master#6. Auftrag LB1: Application Preview\|6. Auftrag LB1: Application Preview]]
+
+[[GiBB/2-semester/m322/Portfolio/Portfolio master#6.1 Bereich 1: Vorkonzepte (Farbkonzept, Schriftkonzept, Logo)\|6.1 Bereich 1: Vorkonzepte (Farbkonzept, Schriftkonzept, Logo)]]
+
+[[GiBB/2-semester/m322/Portfolio/Portfolio master#6.2 Bereich 2: Mockups (Eingabemaske, Bestätigung & Fehler)\|6.2 Bereich 2: Mockups (Eingabemaske, Bestätigung & Fehler)]]
+
+[[GiBB/2-semester/m322/Portfolio/Portfolio master#6.3 Bereich 3: Storyboard\|6.3 Bereich 3: Storyboard]]
+
 ## 1. Beschreibung des Auftraggebers
 
 **Unternehmensname:** Swiss Studios
@@ -134,8 +144,27 @@ Die Nutzergruppe besteht aus den internen Teams der Swiss Studios (Scouts, Proje
 | **Ausbildung**               | Hochschul- oder Fachhochschulabschluss (Marketing, Kommunikation, IT)                                                       |
 | **Interessen**               | Popkultur, Data Science, Fotografie, Social-Media-Trends, Digital Design,                                                   |
 | **Technisches Verständnis**  | **Hervorragend.** Die Nutzer sind Power-User von Smartphones und erwarten modernste UI-Standards sowie schnelle Ladezeiten. |
-## 5. Auftrag LB1: Fiktive Interviews für "VS – Vote & Scout"
+## 5. AB01.1 Auftrag LB1: Fiktive Interviews für "VS – Vote & Scout"
 
+### Persona 1
+
+![lukas|300](/img/user/Pasted%20image%2020260507193215.png)
+**Name:** Lukas (24)
+**Rolle:** Junior bei Swiss Studios
+#### Visuelle Auswertung 
+
+![Pasted image 20260507194313.png](/img/user/Pasted%20image%2020260507194313.png)
+#### Nutzungsdaten 
+
+- **Endgerät:** iPhone 15 Pro (meist mobil unterwegs)
+    
+- **Nutzungszeit:** Über den Tag verteilt, sobald Push-Nachrichten kommen
+    
+- **Nutzungsdauer:** 0.5 bis 1 Stunde pro Tag (in kurzen 5-Minuten-Sessions)
+    
+- **Zweck der Nutzung:** Erste Sichtung, Filterung von Anfragen und schnelles Aussortieren unpassender Budgets/Brands.
+    
+- **Erfahrung mit ähnlichen Produkten:** Instagram, Tinder (liebt flüssige Swipe-Gesten, hasst komplexe Excel-Tabellen).
 #### Interview 1: (Operative Ebene)
 
 **Teilnehmer:** Lukas, Junior bei Swiss Studios
@@ -171,6 +200,27 @@ Die Nutzergruppe besteht aus den internen Teams der Swiss Studios (Scouts, Proje
 
 ---
 
+### Persona 2
+
+![sarah|300](/img/user/Pasted%20image%2020260507193641.png)
+
+**Name:** Sarah (34) 
+**Rolle:** Senior Creative Directorin bei Swiss Studios
+**Zitat:** _"Ich will auf einen Blick sehen: Brennt das Team für diesen Auftrag?"
+
+#### Visuelle Auswertung 
+![Pasted image 20260507194326.png](/img/user/Pasted%20image%2020260507194326.png)
+#### Nutzungsdaten
+
+-  **Endgerät:** iPad Pro (im Büro) oder MacBook (Screen-Sharing im Meeting).
+    
+-  **Nutzungszeit:** Montagmorgens (intensiv vor Meetings) und abends (Tageszusammenfassung).
+    
+-  **Nutzungsdauer:** ca. 45 Minuten am Stück.
+    
+-  **Zweck der Nutzung:** Finale Projektauswahl, Ressourcenplanung und Analyse des aggregierten Team-Votings.
+    
+- **Erfahrung mit ähnlichen Produkten:** Jira und Slack-Polls (sind ihr aber oft zu "trocken" und unübersichtlich für kreative Entscheidungen).
 #### Interview 2: Die Entscheiderin (Strategische Ebene)
 
 **Teilnehmer:** Sarah, Senior Creative Directorin bei Swiss Studios
@@ -203,6 +253,77 @@ Die Nutzergruppe besteht aus den internen Teams der Swiss Studios (Scouts, Proje
     
 - **Zusatzfrage 5: Was fehlt dir in aktuellen Tools am meisten?** 
 	* _Antwort:_ Die visuelle Zusammenführung von Budget-Validierung und Team-Begeisterung auf einer Seite.
+
+
+
+### AB01.2 Anforderungen für Vorhaben / Produkt
+
+Um den Erfolg von "VS – Vote & Scout" sicherzustellen, wurden folgende sechs Kernanforderungen definiert:
+
+**1. Swipe-to-Vote Mechanismus**
+
+- **Kategorie:** Funktional
+    
+- **Beschreibung:** Die App muss es ermöglichen, Talent-Karten durch einfache Wischgesten (Swipe left = Pass, Swipe right = Scout) zu bewerten.
+    
+- **Priorität:** Hoch (1)
+    
+- **Begründung:** Wie die Persona "Lukas" zeigt, wird die App meist mobil in kurzen 5-Minuten-Sessions genutzt. Komplexe Menüs würden den Filterprozess verlangsamen. Die Wischgeste garantiert die geforderte Effizienz beim Aussortieren.
+    
+
+**2. Schnelle Ladezeiten (Performance)**
+
+- **Kategorie:** Nicht-funktional
+    
+- **Beschreibung:** Neue Profile, Bilder und Metadaten müssen beim Swipen in unter 1 Sekunde laden.
+    
+- **Priorität:** Hoch (1)
+    
+- **Begründung:** Die Zielgruppe besteht aus technisch versierten Power-Usern. Lange Ladezeiten würden den "Flow" von Nutzern wie Lukas komplett zerstören und die Akzeptanz der App im Team gefährden.
+    
+
+**3. Aggregiertes Daten-Dashboard für Meetings**
+
+- **Kategorie:** Funktional
+    
+- **Beschreibung:** Die App muss individuelle Votings visuell in Diagrammen (z. B. Prozentverteilungen) zusammenfassen.
+    
+- **Priorität:** Hoch (1)
+    
+- **Begründung:** Persona "Sarah" (Entscheiderin) benötigt zwingend visuelle Zusammenfassungen für die Montags-Meetings. Ohne diese aggregierte Ansicht kann sie nicht schnell erfassen, ob das Team für einen Auftrag "brennt", was das wirtschaftliche Ziel der App verfehlen würde.
+    
+
+**4. "On Hold" / Flagging-Funktion**
+
+- **Kategorie:** Funktional
+    
+- **Beschreibung:** Nutzer müssen die Möglichkeit haben, ein Profil auf eine "Warteliste" zu setzen, anstatt sofort mit Ja/Nein abzustimmen.
+    
+- **Priorität:** Mittel (2)
+    
+- **Begründung:** Bei Grenzfällen oder unklaren Budgets kann nicht sofort abgestimmt werden. Sarah benötigt diese Funktion explizit, um kritische oder spannende Anfragen für eine persönliche Diskussion im Team zurückzuhalten.
+    
+
+**5. Responsives Design für Smartphone & Tablet**
+
+- **Kategorie:** Nicht-funktional
+    
+- **Beschreibung:** Das User Interface muss sich fehlerfrei und ohne Überlappungen an Smartphone-Screens und Tablet-Screens anpassen.
+    
+- **Priorität:** Mittel (2)
+    
+- **Begründung:** Die App wird von der operativen Ebene (Lukas) primär auf dem iPhone genutzt, während die strategische Ebene (Sarah) oft das iPad Pro verwendet. Die UI muss auf beiden Formfaktoren perfekt funktionieren.
+    
+
+**6. Dark Mode UI**
+
+- **Kategorie:** Nicht-funktional
+    
+- **Beschreibung:** Die App muss standardmässig in einem dunklen Theme gerendert werden.
+    
+- **Priorität:** Klein (3)
+    
+- **Begründung:** Passt perfekt zur Corporate Identity ("Edge-Agentur") der Swiss Studios. Zudem reduziert es die Augenbelastung der Mitarbeiter, die über den ganzen Tag verteilt immer wieder auf den Bildschirm schauen (siehe Nutzungsverhalten Lukas).
 ## 6. Auftrag LB1: Application Preview
 
 ### Bereich 1
@@ -220,34 +341,44 @@ Die Nutzergruppe besteht aus den internen Teams der Swiss Studios (Scouts, Proje
 
 
 **Begründung der Farbauswahl:**
-Die Farbpalette wurde speziell für eine Gen-Z Marketing-Agentur entwickelt und vereint Professionalität mit moderner Ästhetik.
 
-Der Dark Mode (#0F0F0F) reduziert Augenbelastung bei häufiger mobiler Nutzung und wirkt zeitgemäss. 
+Die Farbpalette vereint Professionalität mit moderner Ästhetik. 
 
-Das Primary Blue (#0066FF) vermittelt Vertrauen und Seriosität, während Success Green (#00D084) und Warning Coral (#FF6B6B) intuitive Signale für Entscheidungen geben – wichtig für die schnelle Voting-Funktionalität. 
+Der Dark Mode (#0F0F0F) reduziert die Augenbelastung bei häufiger mobiler Nutzung, was besonders für **Lukas (Persona 1)** wichtig ist, der über den Tag verteilt immer wieder in kurzen Sessions auf sein iPhone schaut.
+ 
+Die klaren Signalfarben Success Green und Warning Coral ermöglichen ihm zudem intuitive und blitzschnelle Swipe-Entscheidungen. 
 
-Der Purple-Gradient (#667EEA) fügt kreative Energie hinzu, ohne vom Kernprozess abzulenken. 
+Gleichzeitig bietet das Primary Blue einen professionellen, vertrauensvollen Rahmen für das Daten-Dashboard, welches **Sarah (Persona 2)** für ihre Analysen in den Team-Meetings benötigt.
 
 Diese Kombination optimiert die User Experience für spontane, visuelle Entscheidungen und spiegelt die 'Edge'-Identität von Swiss Studios wider.
 #### B) Schriftkonzept aller verwendeter Schriftarten
 
-Das Schriftkonzept setzt auf maximale Klarheit, eine konsistente visuelle Sprache und moderne Ästhetik. Durch die exklusive Nutzung der Sans-Serif-Schriftfamilie „Inter“ wird ein nahtloses, minimalistisches UI-Erlebnis geschaffen, das die schnelle Informationsaufnahme auf mobilen Geräten perfekt unterstützt.
+**Begründung der Schriftarten:** 
+Das Schriftkonzept setzt durch die exklusive Nutzung der Sans-Serif-Schriftfamilie „Inter“ auf maximale Klarheit. 
+
+Dies ist essenziell für **Lukas**, der auf dem kleineren iPhone-Screen schnell Key-Daten wie Budgets und Deadlines erfassen muss, ohne durch verschnörkelte Schriften abgelenkt zu werden. 
+
+Gleichzeitig skaliert die Schriftart durch die markanten SemiBold-Titel hervorragend auf das iPad Pro von **Sarah**, sodass die Übersicht im Meeting für alle klar lesbar bleibt.
 
 | **Schriftart**                       | **Funktion / Nutzung**                                                                                                                            |
 | ------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Inter**<br>SemiBold (600), 24-28pt | **Logo, Branding & Grosse Titel** – Kraftvoll und markant für die VS-Wortmarke, Header und wichtige Namensnennungen.                              |
 | **Inter**<br>Medium (500), 16-18pt   | **UI-Elemente & Sub-Headings** – Perfekte Lesbarkeit für Navigation, Buttons, Labels und hervorgehobene Statistiken.                              |
 | Inter<br>Regular (400), 14-16pt      | **Fliesstext & Details** – Body Text, Beschreibungen und sekundäre Daten. Optimale Lesbarkeit auch bei kleinen Schriftgrössen auf mobilen Screens |
+
+![Pasted image 20260507195512.png](/img/user/Pasted%20image%2020260507195512.png)
 #### C) Logo
 
 Das Logo für 'VS – Vote & Scout' kombiniert Einfachheit mit Wiedererkennung. Es besteht aus einem markanten Monogramm und einem optionalen Schriftzug.
 
-> **VS** VOTE & SCOUT _(Beispielhafte Darstellung in Primary Blue / Weiss)_
+![Pasted image 20260428092809.png\|300](/img/user/Img/Pasted%20image%2020260428092809.png)
+
    
+**Begründung des Logo-Designs:** 
 
-**Begründung des Logo-Designs:** Das VS-Monogramm ist bewusst minimalistisch gehalten – es funktioniert perfekt als 36x36px App-Icon auf Smartphones und bleibt auch bei kleinen Grössen erkennbar. 
+Das VS-Monogramm ist bewusst minimalistisch gehalten. Es funktioniert perfekt als 36x36px App-Icon ein wichtiges Detail für **Lukas**, der die App oft im Vorbeigehen auf dem Homescreen seines Smartphones sucht. 
 
-Die Abkürzung 'VS' hat eine Doppelbedeutung: 'Vote & Scout' und das englische 'versus' (gegeneinander), was den Voting-Mechanismus subtil andeutet.
+Das moderne, cleane Design spiegelt zudem genau die "Edge-Agentur"-Identität wider, auf die **Sarah** bei der Kunden- und Projektauswahl so grossen Wert legt. Die Abkürzung 'VS' hat zudem eine Doppelbedeutung: 'Vote & Scout' und 'versus' (gegeneinander), was den Swipe-Mechanismus subtil andeutet.
 
 
 ### Bereich 2
@@ -257,7 +388,7 @@ Die folgenden Mockups zeigen die zwei Kernansichten der VS-App: Den Talent Revie
 
 ![Pasted image 20260505084032.png](/img/user/Img/Pasted%20image%2020260505084032.png)
 
-Hauptfunktion: Schnelle Erstbewertung von eingehenden Talent-Anfragen durch Swipe-Gesten oder Button-Klicks.
+Hauptfunktion(Eingabemaske): Schnelle Erstbewertung von eingehenden Talent-Anfragen durch Swipe-Gesten oder Button-Klicks.
 
 **Kernelemente:**
 
@@ -275,6 +406,9 @@ Hauptfunktion: Schnelle Erstbewertung von eingehenden Talent-Anfragen durch Swip
 #### Mockup 2: Request Detail Screen
 
 ![Pasted image 20260505084102.png](/img/user/Img/Pasted%20image%2020260505084102.png)![Pasted image 20260505084229.png](/img/user/Img/Pasted%20image%2020260505084229.png)
+
+##### Bestätigung(Success) und Fehlermeldung - screen (Error)
+![Pasted image 20260507200446.png](/img/user/Pasted%20image%2020260507200446.png)
 
 Hauptfunktion: Detaillierte Bewertung mit erweiterten Informationen und Team-Feedback-Anzeige.
 
