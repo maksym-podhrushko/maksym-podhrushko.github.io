@@ -477,3 +477,46 @@ Fachabteilung meldet Bedarf, HR führt Rekrutierung durch
 HR verantwortet Prozess, Fachbereich entscheidet fachlich mit
 
 ---
+
+
+# KR 2.1 BPMN-Prozesse
+
+Process von ProcessMap:  **P4 (Kernprozess) Servicebereitstellung**
+
+- **Prozessname:** Servicebereitstellung durchführen
+    
+- **Objekt (Woran wird gearbeitet?):** Telekommunikationsdienst / Gebuchte Services
+    
+- **Verrichtung (Was wird getan?):** aufschalten und aktivieren
+
+
+![diagram_1.png](/img/user/diagram_1.png)
+
+# KR 2.2 BPMN-Prozesse
+
+KR2.2 ist zusammen mit KR2.1 abgeschlossen.
+
+# KR2.3 BPMN 2 weitere Prozesse
+
+Processes von ProcessMap: 
+
+**P6 (Supportprozess) Human Resources** 
+
+- **Prozessname:** Personalbeschaffung durchführen
+    
+- **Objekt:** Offene Stelle / Personalbedarf
+    
+- **Verrichtung:** ausschreiben, prüfen und besetzen
+
+![diagram_KR2.3_1.png](/img/user/diagram_KR2.3_1.png)
+
+**Finanzmanagement / Budget**
+
+- **Prozessname:** Jahresbudget planen und freigeben
+    
+- **Objekt:** Budgetentwurf
+    
+- **Verrichtung:** erstellen, prüfen und freigeben
+
+![diagram_KR2.3_2.png](/img/user/diagram_KR2.3_2.png)
+
