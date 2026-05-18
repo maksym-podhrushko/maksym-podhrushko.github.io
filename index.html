@@ -384,12 +384,9 @@ International Mobile Equipment Identity</p>
 Wenn nur ein Teil der Kette funktioniert z. B. das Gerät wird geliefert, aber das Billing-System die Rate nicht erfasst, macht Swisscom keinen Gewinn.</p>
 <p>Funktioniert das Billing, aber die Logistik ist zu langsam, ist der Kunde unzufrieden. Nur die Betrachtung von Anfang bis Ende garantiert den Geschäftserfolg.</p>
 <h1 id="kr-1-4-prozess-map" tabindex="-1">KR1.4 Prozess-Map</h1>
-<p><picture src="/img/user/Img/Pasted%20image%2020260505150800.png" alt="Pasted image 20260505150800.png"><source media="(max-width:480px)" srcset="/img/optimized/sL3OQMsv7r-500.webp" type="image/webp">
-<source media="(max-width:480px)" srcset="/img/optimized/sL3OQMsv7r-500.jpeg">
-<source media="(max-width:1920px)" srcset="/img/optimized/sL3OQMsv7r-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/sL3OQMsv7r-700.jpeg"><img class="" src="/img/user/Img/Pasted%20image%2020260505150800.png" alt="Pasted image 20260505150800.png" width=""></picture></p>
 <h4 id="prozesse-sammeln" tabindex="-1">Prozesse sammeln</h4>
 <h4 id="1-managementprozesse" tabindex="-1">1. Managementprozesse</h4>
-<p>Diese steuern die strategische Ausrichtung des Unternehmens:</p>
+<p>Die strategische Ausrichtung des Unternehmens:</p>
 <ol>
 <li><strong>Unternehmensstrategie &amp; Planung</strong></li>
 <li><strong>Finanzmanagement &amp; Controlling</strong></li>
@@ -400,15 +397,15 @@ Wenn nur ein Teil der Kette funktioniert z. B. das Gerät wird geliefert, aber d
 </ol>
 <hr>
 <h4 id="2-kernprozesse" tabindex="-1">2. Kernprozesse</h4>
-<p>Diese Prozesse erzeugen direkt Kundennutzen:</p>
+<p>Direkt Kundennutzen:</p>
 <ol start="7">
-<li><strong>Produkt- &amp; Serviceentwicklung (z. B. Mobile, Internet, TV)</strong></li>
+<li><strong>Produkt- &amp; Serviceentwicklung (Mobile, Internet, TV)</strong></li>
 <li><strong>Netzplanung, -bau und -betrieb (Telekommunikationsinfrastruktur)</strong></li>
-<li><strong>Marketing &amp; Vertrieb (B2C &amp; B2B)</strong></li>
-<li><strong>Kundenberatung &amp; Verkauf (Shops, Online, Hotline)</strong></li>
+<li><strong>Marketing &amp; Vertrieb</strong></li>
+<li>**Kundenberatung &amp; Verkauf</li>
 <li><strong>Servicebereitstellung (Provisioning von Anschlüssen/Diensten)</strong></li>
 <li><strong>Kundendienst &amp; Support (Helpdesk, Störungsbehebung)</strong></li>
-<li><strong>Abrechnung &amp; Billing (Rechnungsstellung, Zahlungsabwicklung)</strong></li>
+<li><strong>Abrechnung &amp; Billing</strong></li>
 </ol>
 <hr>
 <h4 id="3-supportprozesse" tabindex="-1">3. Supportprozesse</h4>
@@ -462,7 +459,7 @@ Wenn nur ein Teil der Kette funktioniert z. B. das Gerät wird geliefert, aber d
 </tr>
 <tr>
 <td>P5 Kundendienst &amp; Support (Kernprozess)</td>
-<td>Störungsmeldung oder Supportanfrage</td>
+<td>Störungsmeldung oder Supportanfrage für Telekommunikationsdiesnt</td>
 <td>Problem analysieren, Lösung durchführen, Kunde informieren</td>
 <td>Gelöstes Problem / funktionierender Service</td>
 </tr>
@@ -487,7 +484,8 @@ Kundenbedarf, gewünschte Produkte/Dienstleistungen, Kundendaten</p>
 <p><strong>Form / Format:</strong><br>
 CRM-System, digitale Erfassung (Formular, Beratungssystem)</p>
 <p><strong>Verantwortlichkeiten:</strong><br>
-Kundenberater erfasst Daten, Vertrieb erstellt Angebot</p>
+Kundenberater erfasst Daten<br>
+Vertrieb erstellt Angebot</p>
 <p><strong>Abgrenzung:</strong><br>
 Nur vollständig erfasste und geprüfte Anforderungen werden übergeben</p>
 <hr>
@@ -569,9 +567,12 @@ HR verantwortet Prozess, Fachbereich entscheidet fachlich mit</p>
 <p><strong>Verrichtung (Was wird getan?):</strong> aufschalten und aktivieren</p>
 </li>
 </ul>
-<p><picture src="/img/user/diagram_1.png" alt="diagram_1.png"><source media="(max-width:480px)" srcset="/img/optimized/g-Mj2OFas4-500.webp" type="image/webp">
-<source media="(max-width:480px)" srcset="/img/optimized/g-Mj2OFas4-500.jpeg">
-<source media="(max-width:1920px)" srcset="/img/optimized/g-Mj2OFas4-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/g-Mj2OFas4-700.jpeg"><img class="" src="/img/user/diagram_1.png" alt="diagram_1.png" width=""></picture></p>
+<p><img src="/img/user/Img/diagram_1.png" alt="diagram_1.png"></p>
+<p><strong>Ablauf</strong>:<br>
+Als Trigger dienen ein Vertrag und die Daten vom Kunden. Dann verwenden wir ein Parallel-Gateway, weil die Aufgaben wie <strong>'SIM-Karte verpacken und versenden' und 'Anschluss im System konfigurieren'</strong> parallel durchgeführt werden können.</p>
+<p>Dann benutzen wir wieder ein Gateway, damit die Prozesse synchronisiert werden können. Des Weiteren schalten wir den Service auf und testen ihn.</p>
+<p>Zur Überprüfung, ob der Test erfolgreich war, benutzen wir ein XOR-Gateway. Wenn nein, führen wir eine Fehleranalyse und Systemkorrektur durch und probieren, den Service neu aufzuschalten. Wenn alles klappt, informieren wir den Kunden.</p>
+<p>Der Telekommunikationsdienst ist dann aktiviert und der Prozess somit beendet.</p>
 <h1 id="kr-2-2-bpmn-prozesse" tabindex="-1">KR 2.2 BPMN-Prozesse</h1>
 <p>KR2.2 ist zusammen mit KR2.1 abgeschlossen.</p>
 <h1 id="kr-2-3-bpmn-2-weitere-prozesse" tabindex="-1">KR2.3 BPMN 2 weitere Prozesse</h1>
@@ -588,10 +589,13 @@ HR verantwortet Prozess, Fachbereich entscheidet fachlich mit</p>
 <p><strong>Verrichtung:</strong> ausschreiben, prüfen und besetzen</p>
 </li>
 </ul>
-<p><picture src="/img/user/diagram_KR2.3_1.png" alt="diagram_KR2.3_1.png"><source media="(max-width:480px)" srcset="/img/optimized/tIzcK2SPWi-500.webp" type="image/webp">
-<source media="(max-width:480px)" srcset="/img/optimized/tIzcK2SPWi-500.jpeg">
-<source media="(max-width:1920px)" srcset="/img/optimized/tIzcK2SPWi-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/tIzcK2SPWi-700.jpeg"><img class="" src="/img/user/diagram_KR2.3_1.png" alt="diagram_KR2.3_1.png" width=""></picture></p>
-<p><strong>Finanzmanagement / Budget</strong></p>
+<p><img src="/img/user/Img/diagram_KR2.3_1.png" alt="diagram_KR2.3_1.png"></p>
+<p><strong>Ablauf</strong>:<br>
+In diesem Supportprozess dient als Trigger, dass ein Personalbedarf gemeldet wurde.</p>
+<p>Dann wird ein AND-Gateway verwendet und wir führen <strong>'Stelle intern ausschreiben'</strong> und <strong>'Stelle extern ausschreiben'</strong> parallel durch. Wir synchronisieren das Ganze dann wieder mit einem anderen AND-Gateway.</p>
+<p>Dann folgt der Schritt <strong>'Bewerbungen prüfen und Interviews führen'</strong>. Mit einem XOR-Gateway prüfen wir, ob ein Kandidat gefunden wurde. Wenn nein, passen wir das <strong>Stellenprofil</strong> an, um die Anforderungen besser zu definieren und den Kreis der Kandidaten zu vergrössern oder zu beschränken.</p>
+<p>Danach führen wir den Prozess quasi von null noch einmal durch. Wenn ein Kandidat gefunden wurde, dann gehen wir über zu <strong>'Arbeitsvertrag erstellen und unterschreiben'</strong>. Der Mitarbeitende ist eingestellt und der Prozess somit beendet.</p>
+<p><strong>(Managementprozess) Finanzmanagement / Budget</strong></p>
 <ul>
 <li>
 <p><strong>Prozessname:</strong> Jahresbudget planen und freigeben</p>
@@ -603,9 +607,25 @@ HR verantwortet Prozess, Fachbereich entscheidet fachlich mit</p>
 <p><strong>Verrichtung:</strong> erstellen, prüfen und freigeben</p>
 </li>
 </ul>
-<p><picture src="/img/user/diagram_KR2.3_2.png" alt="diagram_KR2.3_2.png"><source media="(max-width:480px)" srcset="/img/optimized/W-SP5XFR7F-500.webp" type="image/webp">
-<source media="(max-width:480px)" srcset="/img/optimized/W-SP5XFR7F-500.jpeg">
-<source media="(max-width:1920px)" srcset="/img/optimized/W-SP5XFR7F-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/W-SP5XFR7F-700.jpeg"><img class="" src="/img/user/diagram_KR2.3_2.png" alt="diagram_KR2.3_2.png" width=""></picture></p>
+<p><img src="/img/user/Img/diagram_KR2.3_2.png" alt="diagram_KR2.3_2.png"><br>
+<strong>Ablauf:</strong><br>
+Als Trigger dient in diesem Prozess, dass der Planungszyklus für das neue Jahr beginnt. Dann verwenden wir ein Parallel-Gateway (AND), weil wir die Aufgaben <strong>'Umsatzprognose erstellen'</strong> und <strong>'Kostenbedarf der Abteilungen sammeln'</strong> parallel durchführen können.</p>
+<p>Danach benutzen wir wieder ein AND-Gateway, damit diese beiden Pfade synchronisiert werden. Im nächsten Schritt erstellen wir dann den <strong>Budgetentwurf</strong>. Mit einem XOR-Gateway prüfen wir anschliessend, ob der Entwurf von der Geschäftsleitung genehmigt wurde.</p>
+<p>Wenn nein, müssen wir die <strong>Kostenstellen kürzen und anpassen</strong> und gehen im Prozess zurück, um den Budgetentwurf noch einmal neu zu erstellen. Wenn aber alles klappt und wir ein 'Ja' bekommen, geben wir das <strong>Budget in der Finanzsoftware frei</strong>. Das Jahresbudget ist damit verabschiedet und der Prozess somit beendet.</p>
+<h1 id="kr-2-4-bpmn-erweitert" tabindex="-1">KR2.4 - BPMN erweitert</h1>
+<ul>
+<li>Zwei Prozesse laufen parallel und weisen Abhängigkeiten auf (z. B. Bewerber / Personalabteilung).</li>
+<li>Es müssen zwei Subprozesse enthalten sein:
+<ul>
+<li>ein eingebetteter Subprozess (embedded, “ausgeklappt”)</li>
+<li>ein Subprozess-Aufruf (Call Activity)</li>
+</ul>
+</li>
+<li>Für alle Aktivitäten wurden korrekte Tasktypen verwendet.</li>
+<li>Mindestens drei verschiedene Ereignisarten kommen vor, z.B. Nachrichtenevent, Timer-Event und Fehler-Event.</li>
+<li>Ein ereignisgesteuertes Gateway (Event‑based Gateway) ist vorhanden</li>
+</ul>
+<h1 id="kr-2-5-bpmn-diagrammtypen" tabindex="-1">KR2.5 - BPMN Diagrammtypen</h1>
 </main>
 <script>lucide.createIcons({attrs:{class:["svg-icon"]}})</script>
 </body>
