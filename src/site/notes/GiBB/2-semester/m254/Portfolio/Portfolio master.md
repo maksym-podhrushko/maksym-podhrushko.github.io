@@ -300,12 +300,11 @@ Funktioniert das Billing, aber die Logistik ist zu langsam, ist der Kunde unzufr
 
 # KR1.4 Prozess-Map
 
-![Pasted image 20260505150800.png](/img/user/Img/Pasted%20image%2020260505150800.png)
 #### Prozesse sammeln
 
 #### 1. Managementprozesse
 
-Diese steuern die strategische Ausrichtung des Unternehmens:
+Die strategische Ausrichtung des Unternehmens:
 
 1. **Unternehmensstrategie & Planung**
 2. **Finanzmanagement & Controlling**
@@ -318,15 +317,15 @@ Diese steuern die strategische Ausrichtung des Unternehmens:
 
 #### 2. Kernprozesse
 
-Diese Prozesse erzeugen direkt Kundennutzen:
+Direkt Kundennutzen:
 
-7. **Produkt- & Serviceentwicklung (z. B. Mobile, Internet, TV)**
+7. **Produkt- & Serviceentwicklung (Mobile, Internet, TV)**
 8. **Netzplanung, -bau und -betrieb (Telekommunikationsinfrastruktur)**
-9. **Marketing & Vertrieb (B2C & B2B)**
-10. **Kundenberatung & Verkauf (Shops, Online, Hotline)**
+9. **Marketing & Vertrieb**
+10. **Kundenberatung & Verkauf 
 11. **Servicebereitstellung (Provisioning von Anschlüssen/Diensten)**
 12. **Kundendienst & Support (Helpdesk, Störungsbehebung)**
-13. **Abrechnung & Billing (Rechnungsstellung, Zahlungsabwicklung)**
+13. **Abrechnung & Billing**
 
 ---
 
@@ -346,14 +345,14 @@ Diese sichern den reibungslosen Ablauf:
 
 ![Pasted image 20260505165745.png](/img/user/Img/Pasted%20image%2020260505165745.png)
 #### Prozesse beschreiben
-| Prozess                                                   | Input                                                          | Verarbeitung                                                                         | Output                                      |
-| --------------------------------------------------------- | -------------------------------------------------------------- | ------------------------------------------------------------------------------------ | ------------------------------------------- |
-| P1 Kundenberatung & Verkauf (Kernprozess)                 | Mündliche oder digitale Kundenanfrage (Shop, Hotline, Website) | Bedarf analysieren, Kundendaten erfassen, passende Produkte/Dienstleistungen beraten | Dokumentierte Kundenanforderungen           |
-| P2 Marketing & Vertrieb (Kernprozess)                     | Kundenanforderungen, Produktkatalog                            | Passendes Angebot erstellen, Preise berechnen, Offerte formulieren                   | Individuelles Angebot                       |
-| P3 Marketing & Vertrieb (Kernprozess – Vertragsabschluss) | Angebot                                                        | Angebot prüfen, Kundenzustimmung einholen, Vertrag erfassen                          | Abgeschlossener Vertrag                     |
-| P4 Servicebereitstellung (Kernprozess)                    | Vertrag, Kundendaten, gebuchte Services                        | SIM aktivieren, Anschluss aufschalten, Systeme konfigurieren                         | Aktivierter Telekommunikationsdienst        |
-| P5 Kundendienst & Support (Kernprozess)                   | Störungsmeldung oder Supportanfrage                            | Problem analysieren, Lösung durchführen, Kunde informieren                           | Gelöstes Problem / funktionierender Service |
-| P6 Human Resources (Supportprozess)                       | Personalbedarf aus Fachabteilungen                             | Stelle ausschreiben, Bewerbungen prüfen, Interviews durchführen, Auswahl treffen     | Eingestellte Mitarbeitende                  |
+| Prozess                                                   | Input                                                            | Verarbeitung                                                                         | Output                                      |
+| --------------------------------------------------------- | ---------------------------------------------------------------- | ------------------------------------------------------------------------------------ | ------------------------------------------- |
+| P1 Kundenberatung & Verkauf (Kernprozess)                 | Mündliche oder digitale Kundenanfrage (Shop, Hotline, Website)   | Bedarf analysieren, Kundendaten erfassen, passende Produkte/Dienstleistungen beraten | Dokumentierte Kundenanforderungen           |
+| P2 Marketing & Vertrieb (Kernprozess)                     | Kundenanforderungen, Produktkatalog                              | Passendes Angebot erstellen, Preise berechnen, Offerte formulieren                   | Individuelles Angebot                       |
+| P3 Marketing & Vertrieb (Kernprozess – Vertragsabschluss) | Angebot                                                          | Angebot prüfen, Kundenzustimmung einholen, Vertrag erfassen                          | Abgeschlossener Vertrag                     |
+| P4 Servicebereitstellung (Kernprozess)                    | Vertrag, Kundendaten, gebuchte Services                          | SIM aktivieren, Anschluss aufschalten, Systeme konfigurieren                         | Aktivierter Telekommunikationsdienst        |
+| P5 Kundendienst & Support (Kernprozess)                   | Störungsmeldung oder Supportanfrage für Telekommunikationsdiesnt | Problem analysieren, Lösung durchführen, Kunde informieren                           | Gelöstes Problem / funktionierender Service |
+| P6 Human Resources (Supportprozess)                       | Personalbedarf aus Fachabteilungen                               | Stelle ausschreiben, Bewerbungen prüfen, Interviews durchführen, Auswahl treffen     | Eingestellte Mitarbeitende                  |
 # KR1.5 Abhängigkeiten
 
 ![Pasted image 20260505171511.png](/img/user/Img/Pasted%20image%2020260505171511.png)
@@ -371,7 +370,8 @@ Kundenbedarf, gewünschte Produkte/Dienstleistungen, Kundendaten
 CRM-System, digitale Erfassung (Formular, Beratungssystem)
 
 **Verantwortlichkeiten:**  
-Kundenberater erfasst Daten, Vertrieb erstellt Angebot
+Kundenberater erfasst Daten
+Vertrieb erstellt Angebot
 
 **Abgrenzung:**  
 Nur vollständig erfasste und geprüfte Anforderungen werden übergeben
@@ -490,7 +490,16 @@ Process von ProcessMap:  **P4 (Kernprozess) Servicebereitstellung**
 - **Verrichtung (Was wird getan?):** aufschalten und aktivieren
 
 
-![diagram_1.png](/img/user/diagram_1.png)
+![diagram_1.png](/img/user/Img/diagram_1.png)
+
+**Ablauf**:
+Als Trigger dienen ein Vertrag und die Daten vom Kunden. Dann verwenden wir ein Parallel-Gateway, weil die Aufgaben wie **'SIM-Karte verpacken und versenden' und 'Anschluss im System konfigurieren'** parallel durchgeführt werden können.
+
+Dann benutzen wir wieder ein Gateway, damit die Prozesse synchronisiert werden können. Des Weiteren schalten wir den Service auf und testen ihn. 
+
+Zur Überprüfung, ob der Test erfolgreich war, benutzen wir ein XOR-Gateway. Wenn nein, führen wir eine Fehleranalyse und Systemkorrektur durch und probieren, den Service neu aufzuschalten. Wenn alles klappt, informieren wir den Kunden. 
+
+Der Telekommunikationsdienst ist dann aktiviert und der Prozess somit beendet.
 
 # KR 2.2 BPMN-Prozesse
 
@@ -508,9 +517,19 @@ Processes von ProcessMap:
     
 - **Verrichtung:** ausschreiben, prüfen und besetzen
 
-![diagram_KR2.3_1.png](/img/user/diagram_KR2.3_1.png)
+![diagram_KR2.3_1.png](/img/user/Img/diagram_KR2.3_1.png)
 
-**Finanzmanagement / Budget**
+**Ablauf**:
+In diesem Supportprozess dient als Trigger, dass ein Personalbedarf gemeldet wurde. 
+
+Dann wird ein AND-Gateway verwendet und wir führen **'Stelle intern ausschreiben'** und **'Stelle extern ausschreiben'** parallel durch. Wir synchronisieren das Ganze dann wieder mit einem anderen AND-Gateway. 
+
+Dann folgt der Schritt **'Bewerbungen prüfen und Interviews führen'**. Mit einem XOR-Gateway prüfen wir, ob ein Kandidat gefunden wurde. Wenn nein, passen wir das **Stellenprofil** an, um die Anforderungen besser zu definieren und den Kreis der Kandidaten zu vergrössern oder zu beschränken.
+
+Danach führen wir den Prozess quasi von null noch einmal durch. Wenn ein Kandidat gefunden wurde, dann gehen wir über zu **'Arbeitsvertrag erstellen und unterschreiben'**. Der Mitarbeitende ist eingestellt und der Prozess somit beendet.
+
+
+**(Managementprozess) Finanzmanagement / Budget**
 
 - **Prozessname:** Jahresbudget planen und freigeben
     
@@ -518,5 +537,21 @@ Processes von ProcessMap:
     
 - **Verrichtung:** erstellen, prüfen und freigeben
 
-![diagram_KR2.3_2.png](/img/user/diagram_KR2.3_2.png)
+![diagram_KR2.3_2.png](/img/user/Img/diagram_KR2.3_2.png)
+**Ablauf:**
+Als Trigger dient in diesem Prozess, dass der Planungszyklus für das neue Jahr beginnt. Dann verwenden wir ein Parallel-Gateway (AND), weil wir die Aufgaben **'Umsatzprognose erstellen'** und **'Kostenbedarf der Abteilungen sammeln'** parallel durchführen können.
 
+Danach benutzen wir wieder ein AND-Gateway, damit diese beiden Pfade synchronisiert werden. Im nächsten Schritt erstellen wir dann den **Budgetentwurf**. Mit einem XOR-Gateway prüfen wir anschliessend, ob der Entwurf von der Geschäftsleitung genehmigt wurde.
+
+Wenn nein, müssen wir die **Kostenstellen kürzen und anpassen** und gehen im Prozess zurück, um den Budgetentwurf noch einmal neu zu erstellen. Wenn aber alles klappt und wir ein 'Ja' bekommen, geben wir das **Budget in der Finanzsoftware frei**. Das Jahresbudget ist damit verabschiedet und der Prozess somit beendet.
+
+# KR2.4 - BPMN erweitert
+
+- Zwei Prozesse laufen parallel und weisen Abhängigkeiten auf (z. B. Bewerber / Personalabteilung).
+- Es müssen zwei Subprozesse enthalten sein:
+    - ein eingebetteter Subprozess (embedded, “ausgeklappt”) 
+    - ein Subprozess-Aufruf (Call Activity)
+- Für alle Aktivitäten wurden korrekte Tasktypen verwendet.
+- Mindestens drei verschiedene Ereignisarten kommen vor, z.B. Nachrichtenevent, Timer-Event und Fehler-Event.
+- Ein ereignisgesteuertes Gateway (Event‑based Gateway) ist vorhanden
+# KR2.5 - BPMN Diagrammtypen
