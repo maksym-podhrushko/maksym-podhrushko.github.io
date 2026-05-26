@@ -546,4 +546,16 @@ Danach benutzen wir wieder ein AND-Gateway, damit diese beiden Pfade synchronisi
 Wenn nein, müssen wir die **Kostenstellen kürzen und anpassen** und gehen im Prozess zurück, um den Budgetentwurf noch einmal neu zu erstellen. Wenn aber alles klappt und wir ein 'Ja' bekommen, geben wir das **Budget in der Finanzsoftware frei**. Das Jahresbudget ist damit verabschiedet und der Prozess somit beendet.
 
 # Werkstücke KR2.4 und KR2.5
-![diagram_KR2.4_2.5.png](/img/user/diagram_KR2.4_2.5.png)
+
+![diagram_KR2.4_2.5.png](/img/user/Img/diagram_KR2.4_2.5.png)
+
+
+Ich habe hier ein Kollaborationsdiagramm zum Bewerbungsprozess erstellt. Es gibt zwei Beteiligte: oben den Bewerber und unten Swisscom HR. Beide haben ihren eigenen Prozess, laufen aber parallel und sind über Nachrichten voneinander abhängig.
+
+Beim Bewerber startet der Prozess damit, dass er das Bewerbungsdossier vorbereitet und die Bewerbung sendet. Danach wartet er auf eine Rückmeldung von HR. Über ein ereignisgesteuertes Gateway gibt es drei Möglichkeiten: Einladung erhalten, Absage erhalten oder nach 7 Tagen keine Rückmeldung. Bei einer Einladung bestätigt der Bewerber den Termin, nimmt am Interview teil und prüft später den Vertrag. Am Schluss sendet er den unterschriebenen Vertrag zurück.
+
+Bei Swisscom HR startet der Prozess mit dem Erhalt der Bewerbung. Danach wird das Bewerbungsdossier entgegengenommen und im eingebetteten Subprozess fachlich geprüft. In diesem Subprozess werden die Unterlagen geprüft, Muss-Kriterien automatisch kontrolliert und die Eignung bewertet. Danach entscheidet HR, ob der Kandidat geeignet ist.
+
+Wenn der Kandidat nicht geeignet ist, sendet HR eine Absage. Wenn er geeignet ist, sendet HR eine Einladung zum Interview und wartet mit einem ereignisgesteuerten Gateway auf die Terminbestätigung. Danach führt HR das Interview durch, erfasst die Bewertung und entscheidet, ob eine Einstellung empfohlen wird. Wenn ja, wird über eine Call Activity der Arbeitsvertrag erstellt.
+
+Die Abhängigkeiten zwischen den beiden Prozessen sind mit Message Flows dargestellt. Diese gestrichelten Pfeile zeigen, welche Informationen zwischen Bewerber und HR ausgetauscht werden. Zum Beispiel sendet der Bewerber das Bewerbungsdossier an HR. HR sendet später die Intervieweinladung. Der Bewerber sendet die Terminbestätigung zurück. Am Ende sendet HR das Vertragsangebot und der Bewerber sendet den unterschriebenen Vertrag zurück.
