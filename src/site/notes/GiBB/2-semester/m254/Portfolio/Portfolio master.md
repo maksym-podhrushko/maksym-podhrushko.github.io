@@ -545,13 +545,5 @@ Danach benutzen wir wieder ein AND-Gateway, damit diese beiden Pfade synchronisi
 
 Wenn nein, müssen wir die **Kostenstellen kürzen und anpassen** und gehen im Prozess zurück, um den Budgetentwurf noch einmal neu zu erstellen. Wenn aber alles klappt und wir ein 'Ja' bekommen, geben wir das **Budget in der Finanzsoftware frei**. Das Jahresbudget ist damit verabschiedet und der Prozess somit beendet.
 
-# KR2.4 - BPMN erweitert
-
-- Zwei Prozesse laufen parallel und weisen Abhängigkeiten auf (z. B. Bewerber / Personalabteilung).
-- Es müssen zwei Subprozesse enthalten sein:
-    - ein eingebetteter Subprozess (embedded, “ausgeklappt”) 
-    - ein Subprozess-Aufruf (Call Activity)
-- Für alle Aktivitäten wurden korrekte Tasktypen verwendet.
-- Mindestens drei verschiedene Ereignisarten kommen vor, z.B. Nachrichtenevent, Timer-Event und Fehler-Event.
-- Ein ereignisgesteuertes Gateway (Event‑based Gateway) ist vorhanden
-# KR2.5 - BPMN Diagrammtypen
+# Werkstücke KR2.4 und KR2.5
+![diagram_KR2.4_2.5.png](/img/user/diagram_KR2.4_2.5.png)
