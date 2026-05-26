@@ -618,20 +618,8 @@ In diesem Supportprozess dient als Trigger, dass ein Personalbedarf gemeldet wur
 Als Trigger dient in diesem Prozess, dass der Planungszyklus für das neue Jahr beginnt. Dann verwenden wir ein Parallel-Gateway (AND), weil wir die Aufgaben <strong>'Umsatzprognose erstellen'</strong> und <strong>'Kostenbedarf der Abteilungen sammeln'</strong> parallel durchführen können.</p>
 <p>Danach benutzen wir wieder ein AND-Gateway, damit diese beiden Pfade synchronisiert werden. Im nächsten Schritt erstellen wir dann den <strong>Budgetentwurf</strong>. Mit einem XOR-Gateway prüfen wir anschliessend, ob der Entwurf von der Geschäftsleitung genehmigt wurde.</p>
 <p>Wenn nein, müssen wir die <strong>Kostenstellen kürzen und anpassen</strong> und gehen im Prozess zurück, um den Budgetentwurf noch einmal neu zu erstellen. Wenn aber alles klappt und wir ein 'Ja' bekommen, geben wir das <strong>Budget in der Finanzsoftware frei</strong>. Das Jahresbudget ist damit verabschiedet und der Prozess somit beendet.</p>
-<h1 id="kr-2-4-bpmn-erweitert" tabindex="-1">KR2.4 - BPMN erweitert</h1>
-<ul>
-<li>Zwei Prozesse laufen parallel und weisen Abhängigkeiten auf (z. B. Bewerber / Personalabteilung).</li>
-<li>Es müssen zwei Subprozesse enthalten sein:
-<ul>
-<li>ein eingebetteter Subprozess (embedded, “ausgeklappt”)</li>
-<li>ein Subprozess-Aufruf (Call Activity)</li>
-</ul>
-</li>
-<li>Für alle Aktivitäten wurden korrekte Tasktypen verwendet.</li>
-<li>Mindestens drei verschiedene Ereignisarten kommen vor, z.B. Nachrichtenevent, Timer-Event und Fehler-Event.</li>
-<li>Ein ereignisgesteuertes Gateway (Event‑based Gateway) ist vorhanden</li>
-</ul>
-<h1 id="kr-2-5-bpmn-diagrammtypen" tabindex="-1">KR2.5 - BPMN Diagrammtypen</h1>
+<h1 id="werkstuecke-kr-2-4-und-kr-2-5" tabindex="-1">Werkstücke KR2.4 und KR2.5</h1>
+<p><img src="/img/user/diagram_KR2.4_2.5.png" alt="diagram_KR2.4_2.5.png"></p>
 </main>
 <script>lucide.createIcons({attrs:{class:["svg-icon"]}})</script>
 </body>
