@@ -557,8 +557,7 @@ Wenn nein, müssen wir die **Kostenstellen kürzen und anpassen** und gehen im P
 # Werkstücke KR2.4 und KR2.5
 
 **Bewerbungsprozess bei Lernenden in Swisscom**
-![diagram_KR2.4_2.5.png](/img/user/Img/diagram_KR2.4_2.5.png)
-
+![diagram_KR2.4_2.5.png](/img/user/diagram_KR2.4_2.5.png)
 
 Ich habe hier ein Kollaborationsdiagramm zum Bewerbungsprozess erstellt. Es gibt zwei Beteiligte: oben den Bewerber und unten Swisscom HR. Beide haben ihren eigenen Prozess, laufen aber parallel und sind über Nachrichten voneinander abhängig.
 
