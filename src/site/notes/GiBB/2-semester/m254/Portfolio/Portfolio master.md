@@ -56,6 +56,15 @@ Firma: Swisscom AG
 	* [[GiBB/2-semester/m254/Portfolio/Portfolio master#KR 2.2 BPMN-Prozesse\|#KR 2.2 BPMN-Prozesse]]
 	* [[GiBB/2-semester/m254/Portfolio/Portfolio master#KR 2.3 BPMN 2 weitere Prozesse\|#KR 2.3 BPMN 2 weitere Prozesse]]
 	* [[GiBB/2-semester/m254/Portfolio/Portfolio master#Werkstücke KR2.4 und KR2.5\|#Werkstücke KR2.4 und KR2.5]]
+3. [[GiBB/2-semester/m254/Portfolio/Portfolio master#Handlungsziel 3\|#Handlungsziel 3]]
+	* [[GiBB/2-semester/m254/Portfolio/Portfolio master# KR3.1 Output\|# KR3.1 Output]]
+	* [[GiBB/2-semester/m254/Portfolio/Portfolio master# KR3.2 Checkliste\|# KR3.2 Checkliste]]
+	* [[GiBB/2-semester/m254/Portfolio/Portfolio master# KR3.3 Eingabemaske\|# KR3.3 Eingabemaske]]
+	* [[GiBB/2-semester/m254/Portfolio/Portfolio master# KR3.5 Automatisierung\|# KR3.5 Automatisierung]]
+4. [[GiBB/2-semester/m254/Portfolio/Portfolio master#Handlungsziel 4\|#Handlungsziel 4]]
+	* [[GiBB/2-semester/m254/Portfolio/Portfolio master# KR4.1 Kriterien\|# KR4.1 Kriterien]]
+	* [[GiBB/2-semester/m254/Portfolio/Portfolio master# KR4.2 Komponenten\|# KR4.2 Komponenten]]
+	* [[GiBB/2-semester/m254/Portfolio/Portfolio master# KR4.3 fünf Schnittstellen\|# KR4.3 fünf Schnittstellen]]
 
 ---
 
@@ -557,7 +566,7 @@ Wenn nein, müssen wir die **Kostenstellen kürzen und anpassen** und gehen im P
 # Werkstücke KR2.4 und KR2.5
 
 **Bewerbungsprozess bei Lernenden in Swisscom**
-![diagram_KR2.4_2.5 1.png](/img/user/diagram_KR2.4_2.5%201.png)
+![diagram_KR2.4_2.5 1 1.png](/img/user/Img/diagram_KR2.4_2.5%201%201.png)
 
 Ich habe hier ein Kollaborationsdiagramm zum Bewerbungsprozess erstellt. Es gibt zwei Beteiligte: oben den Bewerber und unten Swisscom HR. Beide haben ihren eigenen Prozess, laufen aber parallel und sind über Nachrichten voneinander abhängig.
 
@@ -572,3 +581,431 @@ Wenn der Kandidat nicht geeignet ist, sendet HR eine Absage. Wenn er geeignet is
 Danach führt HR das Interview durch, erfasst die Bewertung und entscheidet, ob eine Einstellung empfohlen wird. Wenn ja, wird über eine Call Activity der Arbeitsvertrag erstellt.
 
 Die Abhängigkeiten zwischen den beiden Prozessen sind mit Message Flows dargestellt. Diese gestrichelten Pfeile zeigen, welche Informationen zwischen Bewerber und HR ausgetauscht werden. Zum Beispiel sendet der Bewerber das Bewerbungsdossier an HR. HR sendet später die Intervieweinladung. Der Bewerber sendet die Terminbestätigung zurück. Am Ende sendet HR das Vertragsangebot und der Bewerber sendet den unterschriebenen Vertrag zurück.
+
+# KR3.1 Output
+
+**P1: Servicebereitstellung durchführen**
+
+**Output**:
+Das Ergebnis dieses Prozesses ist ein aktivierter Telekommunikationsdienst. Dazu gehören eine versendete SIM-Karte, ein im System konfigurierter Anschluss und ein getesteter Service. Wenn der Test erfolgreich ist, wird der Kunde über die Aktivierung informiert. Der Kunde kann den gebuchten Dienst anschliessend nutzen.
+
+**Begründung**: 
+Dieser Prozess produziert einen direkten Kundennutzen. Der Kunde hat vorher einen Vertrag abgeschlossen, aber erst durch die Servicebereitstellung erhält er den funktionierenden Telekommunikationsdienst. 
+
+Wenn dieser Prozess sauber funktioniert, ist der Kunde zufrieden und Swisscom kann die vereinbarte Leistung erbringen. Ausserdem ist der Prozess wichtig für den Umsatz, da ein aktivierter Dienst die Grundlage für die spätere Abrechnung ist.
+
+**P2: Bewerbungsprozess Lernende - Bewerber**
+
+**Output**:
+Das Ergebnis aus Sicht des Bewerbers ist entweder eine Absage oder die Möglichkeit, den Bewerbungsprozess erfolgreich abzuschliessen. Bei einem positiven Verlauf erhält der Bewerber eine Einladung zum Interview, nimmt am Interview teil, prüft das Vertragsangebot und sendet am Ende den unterschriebenen Vertrag zurück.
+
+**Begründung**: 
+Dieser Prozess ist wichtig, da Swisscom auf passende Kandidaten angewiesen ist. Der Bewerber liefert mit dem Bewerbungsdossier, der Terminbestätigung und dem unterschriebenen Vertrag wichtige Informationen an Swisscom HR. Ohne diese Rückmeldung könnte HR den Bewerbungsprozess nicht korrekt weiterführen. Gleichzeitig beeinflusst der Prozess auch das Image von Swisscom als Lehrbetrieb, weil ein klarer und professioneller Bewerbungsablauf für Bewerber einen guten Eindruck macht.
+
+
+**P3: Bewerbungsprozess Lernende - Swisscom HR**
+
+**Output**:
+Das Ergebnis des HR-Prozesses ist entweder eine begründete Absage oder ein Vertragsangebot für einen geeigneten Bewerber. HR nimmt die Bewerbung entgegen, prüft das Dossier, kontrolliert die Muss-Kriterien, bewertet die Eignung, organisiert das Interview und entscheidet danach, ob eine Einstellung empfohlen wird. Bei einem positiven Entscheid wird der Arbeitsvertrag erstellt.
+
+
+**Begründung**: 
+Dieser Prozess ist wichtig, weil Swisscom damit sicherstellt, dass passende Lernende ausgewählt werden. Durch die Prüfung der Unterlagen, Interviews und Bewertungen kann HR besser einschätzen, ob ein Bewerber fachlich und persönlich geeignet ist. Das reduziert Fehlentscheidungen bei der Rekrutierung. Für Swisscom ist das besonders wichtig, weil Lernende langfristig aufgebaut werden und später wichtige Mitarbeitende im Unternehmen werden können.
+
+# KR3.2 Checkliste
+
+**Prozess aus KR2.4:** Bewerbungsprozess bei Lernenden in Swisscom  
+**Ziel:** Faire und strukturierte Durchführung des Vorstellungsgesprächs als Grundlage für den Einstellungsentscheid.
+
+**Datum:** ____________________  
+**Bearbeitet von:** ____________________  
+**Name Bewerber/in:** ____________________
+
+| ✔   | Aufgabe                                      | Verantwortlich                   | Termin / Frist            | Anmerkungen                                                       |
+| --- | -------------------------------------------- | -------------------------------- | ------------------------- | ----------------------------------------------------------------- |
+| ☐   | Interviewtermin und Terminbestätigung prüfen | Swisscom HR                      | Vor dem Interview         | Datum, Uhrzeit und Teilnehmende kontrollieren                     |
+| ☐   | Bewerbungsdossier vorbereiten                | Swisscom HR                      | Vor dem Interview         | Lebenslauf, Zeugnisse und Bewerbung bereitlegen                   |
+| ☐   | Muss-Kriterien nochmals prüfen               | Swisscom HR                      | Vor dem Interview         | Schulabschluss, Noten, Sprachkenntnisse, vollständige Unterlagen  |
+| ☐   | Fachliche Fragen vorbereiten                 | Interviewperson                  | Vor dem Interview         | Fragen zu Informatik, Motivation und Lernbereitschaft             |
+| ☐   | Begrüssung und kurze Vorstellung durchführen | Swisscom HR                      | Beim Interviewstart       | Ablauf des Gesprächs erklären                                     |
+| ☐   | Motivation des Bewerbers erfragen            | Swisscom HR                      | Während des Interviews    | Warum Swisscom? Warum diese Lehrstelle?                           |
+| ☐   | Fachliche Eignung prüfen                     | Interviewperson                  | Während des Interviews    | Interesse an IT, logisches Denken, Grundkenntnisse                |
+| ☐   | Sozialkompetenzen beurteilen                 | Swisscom HR und Fachbereich      | Während des Interviews    | Kommunikation, Auftreten, Teamfähigkeit                           |
+| ☐   | Fragen des Bewerbers beantworten             | Swisscom HR und Fachbereich      | Am Ende des Interviews    | Fragen zur Lehre, Firma und weiteren Schritten klären             |
+| ☐   | Interviewbewertung erfassen                  | Swisscom HR                      | Direkt nach dem Interview | Bewertung und Notizen im HR-System eintragen                      |
+| ☐   | Gesamteindruck gemeinsam besprechen          | Swisscom HR und  Interviewperson | Nach dem Interview        | Stärken, Schwächen und offene Punkte vergleichen                  |
+| ☐   | Empfehlung für nächsten Schritt festhalten   | Swisscom HR                      | Nach der Besprechung      | Einstellung empfehlen: Ja / Nein                                  |
+| ☐   | Nächsten Prozessschritt auslösen             | Swisscom HR                      | Nach Entscheid            | Bei Ja: Vertragsangebot vorbereiten. Bei Nein: Absage vorbereiten |
+# KR3.3 Eingabemaske
+Für diese Kompetenz habe ich den Prozessschritt **„Vertragserstellung / Ratenplan erstellen“** aus meinem Geschäftsprozess **„Verkauf eines Smartphones mit Ratenzahlungsvereinbarung“** gewählt.
+
+### Ziel der Eingabemaske
+
+Das Ziel der Eingabemaske ist es, den Sales Consultant oder den Kunden online Schritt für Schritt durch die Vertragserstellung zu führen. Die Maske soll sicherstellen, dass alle notwendigen Angaben vollständig und korrekt erfasst werden, bevor der Ratenzahlungsvertrag erstellt wird.
+
+### Beschreibung der Eingabemaske
+
+Die Eingabemaske wurde als geführter Wizard aufgebaut. Sie unterstützt den Prozessschritt **„Vertragserstellung / Ratenplan erstellen“** beim Smartphone-Ratenkauf. Der Benutzer wird Schritt für Schritt durch alle wichtigen Bereiche geführt, damit der Vertrag vollständig, korrekt und nachvollziehbar erstellt werden kann.
+
+#### 1. Kundendaten
+
+Dieser Schritt ist wichtig, weil der Vertrag eindeutig einer Person zugeordnet werden muss. 
+
+Die Kundendaten dienen zur Identifikation des Kunden und zur späteren Kontaktaufnahme, zum Beispiel für die Vertragsbestätigung oder den SMS-Code für die digitale Signatur.
+
+#### 2. Gerät und Abo
+
+Dieser Schritt ist wichtig, weil das ausgewählte Smartphone und das passende Abo die Grundlage für den Ratenkauf bilden. 
+
+Das Gerät muss eindeutig bestimmt werden, damit später keine Verwechslung entsteht und der Vertrag mit dem richtigen Produkt verbunden ist.
+
+#### 3. Ratenplan
+
+Dieser Schritt ist wichtig, weil hier die finanziellen Bedingungen des Vertrags festgelegt werden. 
+
+Der Kunde sieht, wie hoch die Anzahlung ist, wie lange die Laufzeit dauert und welche monatliche Rate bezahlt werden muss. Dadurch wird der Vertrag transparent und verständlich.
+
+#### 4. Bonitätsprüfung und Einverständnis
+
+Dieser Schritt ist wichtig, weil Swisscom vor dem Vertragsabschluss sicherstellen muss, dass der Kunde für eine Ratenzahlung zugelassen ist. 
+
+Gleichzeitig wird dokumentiert, dass der Kunde die Vertragsbedingungen akzeptiert und die digitale Signatur bestätigt hat.
+
+#### 5. Lieferung / Übergabe
+
+Dieser Schritt ist wichtig, weil nach dem Vertragsabschluss entweder eine direkte Übergabe im Shop oder ein Versandauftrag an die Logistik ausgelöst wird.
+
+ So wird klar festgelegt, wie der Kunde das Smartphone erhält.
+
+#### 6. Zusammenfassung
+
+Dieser Schritt ist wichtig, weil alle Angaben vor dem endgültigen Vertragsabschluss noch einmal kontrolliert werden können. Erst nach dieser Prüfung wird der Vertrag erstellt und der nächste Prozessschritt kann starten.
+
+### Implementation
+
+
+```
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>KR3.3 Eingabemaske Smartphone-Ratenkauf</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    background:#f5f7fb;
+    margin:0;
+    color:#222;
+}
+header {
+    background:#0054a6;
+    color:white;
+    padding:28px 48px;
+}
+main {
+    max-width:1050px;
+    margin:30px auto;
+    background:white;
+    padding:32px;
+    border-radius:18px;
+    box-shadow:0 6px 18px rgba(0,0,0,.08);
+}
+.steps {
+    display:flex;
+    gap:8px;
+    flex-wrap:wrap;
+    margin-bottom:24px;
+}
+.step {
+    background:#e8f3ff;
+    color:#0054a6;
+    padding:10px 14px;
+    border-radius:999px;
+    font-weight:bold;
+}
+section {
+    border:1px solid #dde3ea;
+    border-radius:14px;
+    padding:20px;
+    margin:20px 0;
+}
+h2 {
+    color:#0054a6;
+    margin-top:0;
+}
+.grid {
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:18px;
+}
+label {
+    font-weight:bold;
+    display:block;
+    margin-bottom:6px;
+}
+input, select, textarea {
+    width:100%;
+    padding:12px;
+    border:1px solid #bfc7d1;
+    border-radius:8px;
+    box-sizing:border-box;
+}
+textarea {
+    min-height:80px;
+}
+.options {
+    margin-top:12px;
+}
+.option-row {
+    display:flex;
+    align-items:center;
+    gap:10px;
+    margin:10px 0;
+    font-weight:normal;
+}
+.option-row input[type="checkbox"],
+.option-row input[type="radio"] {
+    width:auto;
+    margin:0;
+    padding:0;
+}
+.summary {
+    background:#e8f3ff;
+    padding:16px;
+    border-radius:12px;
+}
+.status-ok {
+    background:#e6f7ec;
+    border:1px solid #7ac48d;
+    padding:12px;
+    border-radius:10px;
+    color:#1f6b34;
+    font-weight:bold;
+}
+button {
+    background:#0054a6;
+    color:white;
+    border:0;
+    padding:14px 24px;
+    border-radius:10px;
+    font-weight:bold;
+    float:right;
+    margin-top:12px;
+}
+</style>
+</head>
+<body>
+<header>
+<h1>Eingabemaske: Smartphone-Ratenkauf</h1>
+<p>Geführter Eingabeprozess für Vertragserstellung und Ratenzahlungsvereinbarung</p>
+</header>
+
+<main>
+<div class="steps">
+    <span class="step">1 Kundendaten</span>
+    <span class="step">2 Gerät & Abo</span>
+    <span class="step">3 Ratenplan</span>
+    <span class="step">4 Bonität</span>
+    <span class="step">5 Lieferung</span>
+    <span class="step">6 Zusammenfassung</span>
+</div>
+
+<section>
+<h2>1. Kundendaten</h2>
+<div class="grid">
+    <div><label>Vorname *</label><input placeholder="Max"></div>
+    <div><label>Nachname *</label><input placeholder="Muster"></div>
+    <div><label>Kundennummer / Login *</label><input placeholder="C123456789"></div>
+    <div><label>Geburtsdatum *</label><input type="date"></div>
+    <div><label>E-Mail-Adresse *</label><input type="email" placeholder="max.muster@email.ch"></div>
+    <div><label>Telefonnummer *</label><input type="tel" placeholder="+41 79 123 45 67"></div>
+</div>
+</section>
+
+<section>
+<h2>2. Gerät und Abo</h2>
+<div class="grid">
+    <div><label>Smartphone-Modell *</label><input placeholder="iPhone 16 Pro, 256 GB"></div>
+    <div><label>IMEI-Nummer *</label><input placeholder="Wird durch Scannen übernommen"></div>
+    <div><label>Bestehendes / neues Abo *</label>
+        <select>
+            <option>blue Mobile M</option>
+            <option>blue Mobile L</option>
+            <option>blue Mobile XL</option>
+        </select>
+    </div>
+    <div><label>Geräteverfügbarkeit *</label><input value="Gerät verfügbar" readonly></div>
+</div>
+</section>
+
+<section>
+<h2>3. Ratenplan</h2>
+<div class="grid">
+    <div><label>Gerätepreis CHF *</label><input type="number" placeholder="1199"></div>
+    <div><label>Anzahlung CHF *</label><input type="number" placeholder="99"></div>
+</div>
+
+<div class="options">
+    <label class="option-row"><input type="radio" name="laufzeit"> 12 Monate</label>
+    <label class="option-row"><input type="radio" name="laufzeit" checked> 24 Monate</label>
+    <label class="option-row"><input type="radio" name="laufzeit"> 36 Monate</label>
+</div>
+
+<p><strong>Berechnete Monatsrate:</strong> CHF 45.85</p>
+</section>
+
+<section>
+<h2>4. Bonitätsprüfung und Einverständnis</h2>
+
+<p><strong>Status:</strong> Freigegeben durch Credit Management</p>
+
+<div class="options">
+    <label class="option-row">
+        <input type="checkbox" checked>
+        AGB und Ratenzahlungsbedingungen akzeptiert
+    </label>
+
+    <label class="option-row">
+        <input type="checkbox" checked>
+        SMS-Code für digitale Signatur bestätigt
+    </label>
+
+    <label class="option-row">
+        <input type="checkbox" checked>
+        Kunde wurde über monatliche Belastung informiert
+    </label>
+</div>
+</section>
+
+<section>
+<h2>5. Lieferung / Übergabe</h2>
+
+<div class="options">
+    <label class="option-row"><input type="radio" name="lieferung" checked> Direkt im Shop</label>
+    <label class="option-row"><input type="radio" name="lieferung"> Postversand</label>
+    <label class="option-row"><input type="radio" name="lieferung"> Abholung später</label>
+</div>
+
+<label>Lieferadresse</label>
+<textarea placeholder="Bahnhofstrasse 1, 8001 Zürich"></textarea>
+</section>
+
+<section>
+<h2>6. Zusammenfassung</h2>
+<div class="summary">
+    <p><strong>Kunde:</strong> Max Muster</p>
+    <p><strong>Gerät:</strong> iPhone 16 Pro, 256 GB</p>
+    <p><strong>Ratenplan:</strong> CHF 99.00 Anzahlung + 24 × CHF 45.85</p>
+    <p><strong>Bonität:</strong> Freigegeben</p>
+    <p><strong>Output:</strong> Digital signierter Vertrag und Übergabeauftrag</p>
+</div>
+</section>
+
+<button>Vertrag erstellen</button>
+</main>
+</body>
+</html>
+
+```
+# KR3.5 Automatisierung
+
+Das Arbeitsergebnis dient dem Nachweis der Kompetenz 3.5 vom Kompetenzraster.
+
+**Kompetenz**: Ich kann beschreiben, welche Teile eines Prozesses mit Informatik unterstützt oder gar vollständig automatisiert werden können.
+
+Finden Sie bei KR2.5 Möglichkeiten für eine Automatisierung. Beschreiben und begründen Sie diese.
+
+Erweitern Sie das M254-Geschäftsprozess-Dokument mit KR3.5:
+
+Sie können diese Kompetenz zusammen mit KR4.2 (Komponenten) und KR4.3 (5 Schnittstellen) abgeben.
+
+Abnahme Kompetenz (Fachgespräch) KR3.1, KR3.2, KR3.3, KR4.1, KR4.2, KR4.3, KR3.5 durch Lehrperson.
+
+Abgabe M254-Geschäftsprozess-Dokument per Teams.
+
+
+# KR4.1 Kriterien
+
+### Unterschied zwischen organisatorischem und technischem Prozess
+
+In einem Geschäftsprozess können verschiedene Teilprozesse vorkommen. Manche Teilprozesse sind eher **organisatorisch**, weil sie durch Menschen, Rollen, Entscheidungen und Zuständigkeiten geprägt sind. 
+
+Andere Teilprozesse sind eher **technisch**, weil sie hauptsächlich durch Systeme, Maschinen, Software oder automatisierte Abläufe ausgeführt werden.
+
+### Ein organisatorischer Prozess
+|Kriterium|Erklärung|
+|---|---|
+|Menschen stehen im Mittelpunkt|Der Prozess wird hauptsächlich durch Personen oder Rollen ausgeführt.|
+|Entscheidungen werden durch Mitarbeitende getroffen|Zum Beispiel entscheidet ein Sales Consultant, HR-Mitarbeitender oder Vorgesetzter.|
+|Kommunikation ist wichtig|Es gibt Absprachen, Beratungen, Rückfragen oder Freigaben.|
+|Zuständigkeiten sind klar verteilt|Es ist definiert, welche Rolle für welchen Schritt verantwortlich ist.|
+|Der Ablauf kann je nach Situation variieren|Menschen können den Ablauf anpassen, wenn Sonderfälle auftreten.|
+|Dokumentation und Kontrolle sind wichtig|Informationen werden erfasst, geprüft oder freigegeben.|
+|Der Prozess ist oft nicht vollständig automatisiert|Systeme können unterstützen, aber Menschen steuern den Ablauf.|
+
+
+### Ein technischen Prozess
+
+| Kriterium                                          | Erklärung                                                                                           |
+| -------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
+| Systeme oder Maschinen stehen im Mittelpunkt       | Der Prozess wird hauptsächlich durch Software, IT-Systeme oder technische Infrastruktur ausgeführt. |
+| Der Ablauf ist stark standardisiert                | Die Schritte laufen nach festen Regeln ab.                                                          |
+| Automatisierung ist möglich oder bereits vorhanden | Das System kann den Schritt ohne manuelle Bearbeitung ausführen.                                    |
+| Daten werden verarbeitet                           | Informationen werden geprüft, gespeichert, übertragen oder berechnet.                               |
+| Technische Schnittstellen sind wichtig             | Systeme tauschen Daten miteinander aus.                                                             |
+| Fehler sind oft technische Systemfehler            | Zum Beispiel Schnittstellenfehler, Systemabbruch oder falsche Datenübertragung.                     |
+| Das Ergebnis ist technisch messbar                 | Zum Beispiel Status „freigegeben“, „aktiviert“, „versendet“ oder „abgerechnet“.                     |
+
+### Beispiel aus meinem Geschäftsprozess
+
+Ein technischer Prozess ist zum Beispiel die **Bonitätsprüfung im SAP Credit Management System**. Das System prüft automatisch, ob der Kunde für eine Ratenzahlung zugelassen ist.
+
+Auch die **Aktivierung der monatlichen Rate im Billing-System** ist ein technischer Prozess, weil die Vertragsdaten automatisch an das Abrechnungssystem übergeben und dort verarbeitet werden.
+
+### Vergleich organisatorischer und technischer Prozess
+
+| Merkmal       | Organisatorischer Prozess             | Technischer Prozess                                |
+| ------------- | ------------------------------------- | -------------------------------------------------- |
+| Hauptakteur   | Mensch / Rolle                        | System / Software / Maschine                       |
+| Beispiel      | Kundenberatung                        | Bonitätsprüfung                                    |
+| Flexibilität  | Eher flexibel                         | Eher standardisiert                                |
+| Entscheidung  | Durch Personen                        | Durch Regeln oder Systemlogik                      |
+| Kommunikation | Persönlich oder schriftlich           | Systemmeldungen oder Schnittstellen                |
+| Fehlerart     | Missverständnis, fehlende Information | Systemfehler, falsche Daten, Schnittstellenproblem |
+| Ziel          | Koordination, Entscheidung, Betreuung | Automatisierung, Verarbeitung, Ausführung          |
+
+### Fazit
+
+Ein organisatorischer Prozess ist vor allem daran erkennbar, dass Menschen, Rollen, Kommunikation und Entscheidungen im Mittelpunkt stehen.
+
+Ein technischer Prozess ist vor allem daran erkennbar, dass Systeme, Daten, Automatisierung und standardisierte Abläufe im Mittelpunkt stehen.
+
+
+# KR4.2 Komponenten
+
+Das Arbeitsergebnis dient dem Nachweis der Kompetenz 4.2 vom Kompetenzraster.
+
+**Kompetenz**: Ich kann ein Anwendungssystem in seine technischen und organisatorischen Komponenten aufteilen.
+
+Zeigen Sie an einem Prozess, welche Teile daraus aufgrund der oben genannten Kriterien in einen automatisierten Ablauf gebracht werden können und welche Aktivitäten organisatorisch verkettet werden müssen.
+
+Nehmen Sie den Prozess von KR2.5 und unterteilen Sie ihn bei 5 Schritten in organisatorische und technische Komponenten.
+
+Erweitern Sie das M254-Geschäftsprozess-Dokument mit KR4.2.
+
+Sie können diese Kompetenz zusammen mit KR3.5 Automatisierung und KR4.3 fünf Schnittstellen abgeben.
+# KR4.3 fünf Schnittstellen
+
+Das Arbeitsergebnis dient dem Nachweis der Kompetenz 4.3 vom Kompetenzraster.
+
+**Kompetenz**: Ich kann die Schnittstellen (mind. 5) der organisatorischen und technischen Komponenten eines Anwendungssystems beschreiben.
+
+Beschreiben Sie die Übergänge (Schnittstellen) von organisatorischen Teilprozessen zu technischen. Nennen Sie den Informationsfluss und die Verantwortlichkeit. Beschreiben Sie von KR2.5 die Schnittstellen:
+
+- Welche Information wird übergeben?
+- Wer ist verantwortlich für die Übergabe?
+- Was geschieht mit der Information?
+
+Erweitern Sie das M254-Geschäftsprozess-Dokument mit KR4.3:
+
+Sie können diese Kompetenz zusammen mit KR3.5 (Automatisierung) und KR4.2 (Komponenten) abgeben.
