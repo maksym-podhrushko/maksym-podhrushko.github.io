@@ -29,19 +29,9 @@
 
 [[GiBB/2-semester/m322/Portfolio/Portfolio master#4. Nutzeranalyse\|4. Nutzeranalyse]]
 
-[[GiBB/2-semester/m322/Portfolio/Portfolio master#5. Auftrag LB1: Analyse & Anforderungen\|5. Auftrag LB1: Analyse & Anforderungen]]
-
-[[GiBB/2-semester/m322/Portfolio/Portfolio master#5.1 AB01.1 Fiktive Interviews & Personas\|5.1 AB01.1 Fiktive Interviews & Personas]]
-
-[[GiBB/2-semester/m322/Portfolio/Portfolio master#5.2 AB01.2 Anforderungen für Vorhaben / Produkt\|5.2 AB01.2 Anforderungen für Vorhaben / Produkt]]
+[[GiBB/2-semester/m322/Portfolio/Portfolio master#5. AB01.1 Auftrag LB1: Fiktive Interviews für "VS – Vote & Scout"\|#5. AB01.1 Auftrag LB1: Fiktive Interviews für "VS – Vote & Scout"]]
 
 [[GiBB/2-semester/m322/Portfolio/Portfolio master#6. Auftrag LB1: Application Preview\|6. Auftrag LB1: Application Preview]]
-
-[[GiBB/2-semester/m322/Portfolio/Portfolio master#6.1 Bereich 1: Vorkonzepte (Farbkonzept, Schriftkonzept, Logo)\|6.1 Bereich 1: Vorkonzepte (Farbkonzept, Schriftkonzept, Logo)]]
-
-[[GiBB/2-semester/m322/Portfolio/Portfolio master#6.2 Bereich 2: Mockups (Eingabemaske, Bestätigung & Fehler)\|6.2 Bereich 2: Mockups (Eingabemaske, Bestätigung & Fehler)]]
-
-[[GiBB/2-semester/m322/Portfolio/Portfolio master#6.3 Bereich 3: Storyboard\|6.3 Bereich 3: Storyboard]]
 
 ## 1. Beschreibung des Auftraggebers
 
