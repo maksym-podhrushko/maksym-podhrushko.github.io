@@ -98,7 +98,7 @@ Das Ziel ist eine datengestützte und durch das Team validierte Auswahl von Part
 
 3. **Kommentierung:** In einem internen Feed können Scouts "Checks" hinterlassen (z.B. "Passt perfekt zur Marke X").
 
-4. **Analyse:** In Team-Meetings werden die Top-Kandidaten basierend auf den internen Ratings und der Reputation des Kunden (Budget, Social-Media-Impact) verglichen.  - we need a design for that.
+4. **Analyse:** In Team-Meetings werden die Top-Kandidaten basierend auf den internen Ratings und der Reputation des Kunden (Budget, Social-Media-Impact) verglichen.  
 
 5. **Abschluss:** Bei positiver Mehrheit wird der Kooperationsprozess direkt im Tool angestossen.
 
@@ -148,12 +148,12 @@ Die Nutzergruppe besteht aus den internen Teams der Swiss Studios (Scouts, Proje
 
 ### Persona 1
 
-![lukas|300](/img/user/Pasted%20image%2020260507193215.png)
+![lukas|300](/img/user/Img/Pasted%20image%2020260507193215.png)
 **Name:** Lukas (24)
 **Rolle:** Junior bei Swiss Studios
 #### Visuelle Auswertung 
 
-![Pasted image 20260507194313.png](/img/user/Pasted%20image%2020260507194313.png)
+![Pasted image 20260507194313.png](/img/user/Img/Pasted%20image%2020260507194313.png)
 #### Nutzungsdaten 
 
 - **Endgerät:** iPhone 15 Pro (meist mobil unterwegs)
@@ -202,14 +202,14 @@ Die Nutzergruppe besteht aus den internen Teams der Swiss Studios (Scouts, Proje
 
 ### Persona 2
 
-![sarah|300](/img/user/Pasted%20image%2020260507193641.png)
+![sarah|300](/img/user/Img/Pasted%20image%2020260507193641.png)
 
 **Name:** Sarah (34) 
 **Rolle:** Senior Creative Directorin bei Swiss Studios
 **Zitat:** _"Ich will auf einen Blick sehen: Brennt das Team für diesen Auftrag?"
 
 #### Visuelle Auswertung 
-![Pasted image 20260507194326.png](/img/user/Pasted%20image%2020260507194326.png)
+![Pasted image 20260507194326.png](/img/user/Img/Pasted%20image%2020260507194326.png)
 #### Nutzungsdaten
 
 -  **Endgerät:** iPad Pro (im Büro) oder MacBook (Screen-Sharing im Meeting).
@@ -366,7 +366,7 @@ Gleichzeitig skaliert die Schriftart durch die markanten SemiBold-Titel hervorra
 | **Inter**<br>Medium (500), 16-18pt   | **UI-Elemente & Sub-Headings** – Perfekte Lesbarkeit für Navigation, Buttons, Labels und hervorgehobene Statistiken.                              |
 | Inter<br>Regular (400), 14-16pt      | **Fliesstext & Details** – Body Text, Beschreibungen und sekundäre Daten. Optimale Lesbarkeit auch bei kleinen Schriftgrössen auf mobilen Screens |
 
-![Pasted image 20260507195512.png](/img/user/Pasted%20image%2020260507195512.png)
+![Pasted image 20260507195512.png](/img/user/Img/Pasted%20image%2020260507195512.png)
 #### C) Logo
 
 Das Logo für 'VS – Vote & Scout' kombiniert Einfachheit mit Wiedererkennung. Es besteht aus einem markanten Monogramm und einem optionalen Schriftzug.
@@ -408,7 +408,7 @@ Hauptfunktion(Eingabemaske): Schnelle Erstbewertung von eingehenden Talent-Anfra
 ![Pasted image 20260505084102.png](/img/user/Img/Pasted%20image%2020260505084102.png)![Pasted image 20260505084229.png](/img/user/Img/Pasted%20image%2020260505084229.png)
 
 ##### Bestätigung(Success) und Fehlermeldung - screen (Error)
-![Pasted image 20260507200446.png](/img/user/Pasted%20image%2020260507200446.png)
+![Pasted image 20260507200446.png](/img/user/Img/Pasted%20image%2020260507200446.png)
 
 Hauptfunktion: Detaillierte Bewertung mit erweiterten Informationen und Team-Feedback-Anzeige.
 
