@@ -213,7 +213,7 @@ sind ständige Gäste der Konzernleitung, haben kein Stimmrecht, aber sie berate
 	- _Sales Consultant:_ Kundenberatung und Datenerfassung - Swisscom Shop oder online.
 	- SAP _Credit Management System:_ Automatisierte Entscheidung über Kreditvergabe.
 	- Logistik-Zentrum: Versand der Ware bei Online-Bestellung.
-	- Finance:_ Sicherstellung der monatlichen Rechnungen.
+	- Finance: Sicherstellung der monatlichen Rechnungen.
 - **Output:** Zufriedener Kunde mit neuem Gerät, rechtsgültiger Vertrag, monatlicher Zahlungseingang (Umsatz).
 
 
@@ -907,22 +907,6 @@ button {
 </html>
 
 ```
-# KR3.5 Automatisierung
-
-Das Arbeitsergebnis dient dem Nachweis der Kompetenz 3.5 vom Kompetenzraster.
-
-**Kompetenz**: Ich kann beschreiben, welche Teile eines Prozesses mit Informatik unterstützt oder gar vollständig automatisiert werden können.
-
-Finden Sie bei KR2.5 Möglichkeiten für eine Automatisierung. Beschreiben und begründen Sie diese.
-
-Erweitern Sie das M254-Geschäftsprozess-Dokument mit KR3.5:
-
-Sie können diese Kompetenz zusammen mit KR4.2 (Komponenten) und KR4.3 (5 Schnittstellen) abgeben.
-
-Abnahme Kompetenz (Fachgespräch) KR3.1, KR3.2, KR3.3, KR4.1, KR4.2, KR4.3, KR3.5 durch Lehrperson.
-
-Abgabe M254-Geschäftsprozess-Dokument per Teams.
-
 
 # KR4.1 Kriterien
 
@@ -962,18 +946,6 @@ Ein technischer Prozess ist zum Beispiel die **Bonitätsprüfung im SAP Credit M
 
 Auch die **Aktivierung der monatlichen Rate im Billing-System** ist ein technischer Prozess, weil die Vertragsdaten automatisch an das Abrechnungssystem übergeben und dort verarbeitet werden.
 
-### Vergleich organisatorischer und technischer Prozess
-
-| Merkmal       | Organisatorischer Prozess             | Technischer Prozess                                |
-| ------------- | ------------------------------------- | -------------------------------------------------- |
-| Hauptakteur   | Mensch / Rolle                        | System / Software / Maschine                       |
-| Beispiel      | Kundenberatung                        | Bonitätsprüfung                                    |
-| Flexibilität  | Eher flexibel                         | Eher standardisiert                                |
-| Entscheidung  | Durch Personen                        | Durch Regeln oder Systemlogik                      |
-| Kommunikation | Persönlich oder schriftlich           | Systemmeldungen oder Schnittstellen                |
-| Fehlerart     | Missverständnis, fehlende Information | Systemfehler, falsche Daten, Schnittstellenproblem |
-| Ziel          | Koordination, Entscheidung, Betreuung | Automatisierung, Verarbeitung, Ausführung          |
-
 ### Fazit
 
 Ein organisatorischer Prozess ist vor allem daran erkennbar, dass Menschen, Rollen, Kommunikation und Entscheidungen im Mittelpunkt stehen.
@@ -983,29 +955,292 @@ Ein technischer Prozess ist vor allem daran erkennbar, dass Systeme, Daten, Auto
 
 # KR4.2 Komponenten
 
-Das Arbeitsergebnis dient dem Nachweis der Kompetenz 4.2 vom Kompetenzraster.
+Für die Analyse der Komponenten wird der Prozess **„Personalbeschaffung durchführen“ aus KR2.5** betrachtet.
 
-**Kompetenz**: Ich kann ein Anwendungssystem in seine technischen und organisatorischen Komponenten aufteilen.
+Der Prozess umfasst organisatorische und technische Bestandteile. Organisatorische Komponenten werden durch Personen ausgeführt und benötigen Entscheidungen, Kommunikation oder klar geregelte Verantwortlichkeiten. Technische Komponenten werden durch IT-Systeme unterstützt oder nach festen Regeln automatisch ausgeführt.
 
-Zeigen Sie an einem Prozess, welche Teile daraus aufgrund der oben genannten Kriterien in einen automatisierten Ablauf gebracht werden können und welche Aktivitäten organisatorisch verkettet werden müssen.
+## Fünf Prozessschritte
 
-Nehmen Sie den Prozess von KR2.5 und unterteilen Sie ihn bei 5 Schritten in organisatorische und technische Komponenten.
+| Nr.   | Prozessschritt                                             | Organisatorische Komponente                                                                                                                    | Technische Komponente                                                                                                                                              | Begründung anhand der Kriterien aus KR4.1                                                                                                                                                          |
+| ----- | ---------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **1** | **Bewerbung einreichen**                                   | Der Bewerber wählt eine passende Stelle aus, gibt seine Informationen ein und entscheidet, welche Unterlagen er einreicht.                     | Das Bewerbungsportal stellt das Formular bereit, prüft Pflichtfelder und ermöglicht das Hochladen der Dokumente.                                                   | Der Schritt ist **kombiniert**. Auswahl und Eingabe erfolgen durch einen Menschen. Das System verarbeitet Daten nach standardisierten Regeln und prüft formale Anforderungen automatisch.          |
+| **2** | **Bewerbung erfassen und Eingang bestätigen**              | Die Personalabteilung überwacht die korrekte Zuordnung zum Stellenverfahren und bearbeitet Ausnahmefälle.                                      | Das HR-System speichert die Daten, vergibt eine Bewerbernummer, setzt den Bearbeitungsstatus auf „eingegangen“ und versendet automatisch eine Eingangsbestätigung. | Der normale Ablauf ist überwiegend **technisch**, weil Daten nach festen Regeln verarbeitet werden. Die Personalabteilung bleibt für Kontrolle und Ausnahmefälle verantwortlich.                   |
+| **3** | **Bewerbungsunterlagen prüfen**                            | Die Personalabteilung beurteilt Qualifikationen, Berufserfahrung und Eignung. Sie entscheidet, ob der Bewerber eingeladen oder abgelehnt wird. | Das HR-System stellt die Dokumente bereit, sortiert Bewerbungen und kennzeichnet fehlende Pflichtunterlagen.                                                       | Der Schritt ist überwiegend **organisatorisch**, weil eine Person die Unterlagen beurteilt und eine individuelle Entscheidung trifft. Das System unterstützt bei der Verwaltung der Informationen. |
+| **4** | **Interview organisieren und durchführen**                 | Personalabteilung und Fachabteilung stimmen sich ab, führen das Gespräch und beurteilen den Bewerber. Der Bewerber nimmt am Interview teil.    | Kalender-, E-Mail- und Videokonferenzsysteme versenden Terminvorschläge, Einladungen und Erinnerungen und können einen Videokonferenzlink erstellen.               | Der Schritt ist überwiegend **organisatorisch**, weil Kommunikation und menschliche Beurteilung im Mittelpunkt stehen. Die Terminverwaltung ist standardisierbar und technisch unterstützbar.      |
+| **5** | **Vertragsangebot erstellen und Entscheidung verarbeiten** | Die Personalabteilung legt Vertragsbedingungen fest und kontrolliert das Angebot. Der Bewerber entscheidet über Annahme oder Ablehnung.        | Nach der Freigabe übernimmt das HR-System bekannte Daten in eine Vertragsvorlage, erstellt und versendet das Dokument und speichert den Bearbeitungsstatus.        | Der Schritt ist **kombiniert**. Vertragsbedingungen und Annahme sind menschliche Entscheidungen. Dokumenterstellung, Datenübernahme und Statusverwaltung erfolgen nach festen technischen Regeln.  |
 
-Erweitern Sie das M254-Geschäftsprozess-Dokument mit KR4.2.
+## Automatisierbare technische Komponenten
 
-Sie können diese Kompetenz zusammen mit KR3.5 Automatisierung und KR4.3 fünf Schnittstellen abgeben.
-# KR4.3 fünf Schnittstellen
+- Prüfung von Pflichtfeldern und Pflichtdokumenten
+- Speicherung von Bewerbungsdaten und Dokumenten
+- Vergabe einer Bewerbernummer
+- Setzen und Speichern von Bearbeitungsstatus
+- Versand von Eingangsbestätigungen, Einladungen und Erinnerungen
+- Erstellung eines Videokonferenzlinks
+- Übernahme vorhandener Daten in Dokumentvorlagen
+- Protokollierung von Änderungen und Fristen
 
-Das Arbeitsergebnis dient dem Nachweis der Kompetenz 4.3 vom Kompetenzraster.
+Diese Komponenten sind standardisiert, wiederholbar und regelbasiert.
 
-**Kompetenz**: Ich kann die Schnittstellen (mind. 5) der organisatorischen und technischen Komponenten eines Anwendungssystems beschreiben.
+## Organisatorisch zu verkettende Komponenten
 
-Beschreiben Sie die Übergänge (Schnittstellen) von organisatorischen Teilprozessen zu technischen. Nennen Sie den Informationsfluss und die Verantwortlichkeit. Beschreiben Sie von KR2.5 die Schnittstellen:
+- Auswahl der Stelle und Zusammenstellung der Bewerbung
+- inhaltliche Prüfung der Qualifikationen
+- Entscheidung über Einladung oder Absage
+- Abstimmung zwischen Personal- und Fachabteilung
+- Vorbereitung, Durchführung und Bewertung des Interviews
+- Festlegung und Freigabe der Vertragsbedingungen
+- Behandlung individueller Rückfragen und Sonderfälle
+- Entscheidung über Annahme oder Ablehnung des Vertrags
 
-- Welche Information wird übergeben?
-- Wer ist verantwortlich für die Übergabe?
-- Was geschieht mit der Information?
+Diese Komponenten benötigen Kommunikation, Verantwortung, menschliches Urteilsvermögen oder situationsabhängige Entscheidungen.
 
-Erweitern Sie das M254-Geschäftsprozess-Dokument mit KR4.3:
+# KR4.3 Fünf Schnittstellen
 
-Sie können diese Kompetenz zusammen mit KR3.5 (Automatisierung) und KR4.2 (Komponenten) abgeben.
+| Nr.   | Schnittstelle                                    | Richtung                    |
+| ----- | ------------------------------------------------ | --------------------------- |
+| **1** | Bewerber → Bewerbungsportal                      | organisatorisch → technisch |
+| **2** | Bewerbungsportal / HR-System → Personalabteilung | technisch → organisatorisch |
+| **3** | Personalabteilung → HR-System                    | organisatorisch → technisch |
+| **4** | HR- und Kalendersystem ↔ Bewerber                | technisch ↔ organisatorisch |
+| **5** | Personal- und Fachabteilung → HR-System          | organisatorisch → technisch |
+
+---
+
+## Schnittstelle 1: Bewerber → Bewerbungsportal
+
+**Übergang:**  
+Vom organisatorischen Bestandteil „Bewerbung vorbereiten und einreichen“ zum technischen Bewerbungsportal.
+
+**Welche Information wird übergeben?**
+
+- persönliche Daten und Kontaktdaten
+- ausgewählte Stelle
+- Lebenslauf
+- Zeugnisse und weitere Dokumente
+- Antworten aus dem Bewerbungsformular
+
+**Wer ist für die Übergabe verantwortlich?**
+
+Der Bewerber ist dafür verantwortlich, seine Daten vollständig und korrekt einzugeben und die richtigen Dokumente hochzuladen.
+
+**Was geschieht mit der Information?**
+
+Das Bewerbungsportal prüft Pflichtfelder und Pflichtdokumente. Anschliessend werden die Daten an das HR-System übertragen und gespeichert. Bei fehlenden Pflichtangaben verhindert das System das Absenden oder zeigt eine Fehlermeldung an.
+
+**Mögliches Risiko an der Schnittstelle:**
+
+Falsche Angaben, fehlende Dokumente oder ein Übertragungsfehler können dazu führen, dass die Bewerbung unvollständig oder falsch gespeichert wird.
+
+---
+
+## Schnittstelle 2: Bewerbungsportal / HR-System → Personalabteilung
+
+**Übergang:**  
+Vom technischen HR-System zur organisatorischen Prüfung durch die Personalabteilung.
+
+**Welche Information wird übergeben?**
+
+- Bewerbungsdaten und Bewerbungsunterlagen
+- Bewerbernummer
+- Eingangsdatum
+- Bearbeitungsstatus „eingegangen“
+- Hinweise auf fehlende Pflichtunterlagen
+
+**Wer ist für die Übergabe verantwortlich?**
+
+Die Übertragung wird durch das Bewerbungsportal und das HR-System automatisch ausgeführt. Für den technischen Betrieb ist die zuständige IT-Stelle verantwortlich. Die Personalabteilung kontrolliert die fachliche Vollständigkeit und bearbeitet die Bewerbung weiter.
+
+**Was geschieht mit der Information?**
+
+Die Personalabteilung öffnet die Bewerbung im HR-System und prüft Qualifikationen, Berufserfahrung und Vollständigkeit. Die Informationen bilden die Grundlage für die Entscheidung über Einladung oder Absage.
+
+**Mögliches Risiko an der Schnittstelle:**
+
+Wenn Daten nicht korrekt übertragen oder Dokumente nicht angezeigt werden, kann die Bewerbung nicht vollständig beurteilt werden.
+
+---
+
+## Schnittstelle 3: Personalabteilung → HR-System
+
+**Übergang:**  
+Von der organisatorischen Prüfung und Entscheidung zurück zum technischen HR-System.
+
+**Welche Information wird übergeben?**
+
+- Ergebnis der Vorprüfung
+- Bewertung der Unterlagen
+- interne Bemerkungen
+- Entscheidung „zum Interview eingeladen“ oder „abgelehnt“
+- neuer Bearbeitungsstatus der Bewerbung
+
+**Wer ist für die Übergabe verantwortlich?**
+
+Die zuständige Person in der Personalabteilung ist für die korrekte Eingabe und Freigabe der Entscheidung verantwortlich.
+
+**Was geschieht mit der Information?**
+
+Das HR-System speichert die Entscheidung und aktualisiert den Bearbeitungsstatus der Bewerbung. Beim Status „zum Interview eingeladen“ wird die Terminorganisation gestartet. Beim Status „abgelehnt“ wird eine standardisierte Absage vorbereitet oder versendet.
+
+**Mögliches Risiko an der Schnittstelle:**
+
+Ein falsch ausgewählter Bearbeitungsstatus, beispielsweise „abgelehnt“ statt „zum Interview eingeladen“, kann dazu führen, dass der Bewerber eine falsche Nachricht erhält oder ein falscher Folgeprozess gestartet wird.
+
+---
+
+## Schnittstelle 4: HR- und Kalendersystem ↔ Bewerber
+
+**Übergang:**  
+Vom technischen System zum Bewerber und mit dessen Antwort zurück zum technischen System.
+
+**Welche Information wird übergeben?**
+
+Vom System an den Bewerber:
+
+- Einladung zum Interview
+- Datum und Uhrzeit
+- Ort oder Videokonferenzlink
+- Kontaktperson
+- Hinweise zur Vorbereitung
+
+Vom Bewerber an das System:
+
+- Terminbestätigung
+- Terminabsage
+- Änderungswunsch
+
+**Wer ist für die Übergabe verantwortlich?**
+
+Die Personalabteilung ist für die Richtigkeit und Freigabe der Termininformationen verantwortlich. Das HR-, Kalender- oder E-Mail-System führt den Versand aus. Der Bewerber ist für seine Rückmeldung verantwortlich.
+
+**Was geschieht mit der Information?**
+
+Die Einladung wird an den Bewerber versendet. Seine Antwort wird im Kalender oder HR-System gespeichert. Bei einem Änderungswunsch muss die Personalabteilung einen neuen Termin abstimmen.
+
+**Mögliches Risiko an der Schnittstelle:**
+
+Eine falsche E-Mail-Adresse, ein fehlerhafter Videokonferenzlink oder eine nicht gespeicherte Terminbestätigung kann dazu führen, dass das Interview nicht wie geplant stattfindet.
+
+---
+
+## Schnittstelle 5: Personal- und Fachabteilung → HR-System
+
+**Übergang:**  
+Von der organisatorischen Beurteilung nach dem Interview zum technischen HR-System.
+
+**Welche Information wird übergeben?**
+
+- Interviewbewertung
+- fachliche und persönliche Beurteilung
+- Rückmeldungen der beteiligten Personen
+- Entscheidung über Einstellung oder Absage
+- freigegebene Vertragsbedingungen bei einer positiven Entscheidung
+
+**Wer ist für die Übergabe verantwortlich?**
+
+Personal- und Fachabteilung sind gemeinsam für die Bewertung verantwortlich. Die zuständige HR-Person dokumentiert die endgültige Entscheidung und den korrekten Bearbeitungsstatus im HR-System.
+
+**Was geschieht mit der Information?**
+
+Das HR-System speichert die Bewertung und aktualisiert den Status. Bei einer positiven Entscheidung werden die freigegebenen Daten für das Vertragsangebot verwendet. Bei einer negativen Entscheidung wird der Absageprozess gestartet.
+
+**Mögliches Risiko an der Schnittstelle:**
+
+Unvollständige Bewertungen, widersprüchliche Rückmeldungen oder eine falsche Statusauswahl können einen falschen Folgeprozess auslösen oder die Bearbeitung verzögern.
+
+## Informationsfluss im Gesamtprozess
+
+**Bewerber → Bewerbungsportal → HR-System → Personalabteilung → HR-System → Bewerber ↔ HR-/Kalendersystem → Personal- und Fachabteilung → HR-System**
+
+Die technischen Systeme prüfen, speichern, übertragen und protokollieren Daten. Die beteiligten Personen kontrollieren die Informationen, kommunizieren miteinander und treffen die notwendigen Entscheidungen.
+
+## Verantwortlichkeit
+
+- Der Bewerber ist für die Richtigkeit seiner Daten und seine Terminrückmeldung verantwortlich.
+- Die zuständige IT-Stelle ist für den technischen Betrieb und die korrekte Datenübertragung verantwortlich.
+- Die Personalabteilung ist für Prüfung, Statusänderung, Freigabe und Kommunikation verantwortlich.
+- Die Fachabteilung ist für die fachliche Beurteilung verantwortlich.
+- Die zuständige HR-Person dokumentiert die endgültige Entscheidung im HR-System.
+
+# KR3.5 Automatisierung
+
+Für die Automatisierung wird derselbe Prozess **„Personalbeschaffung durchführen“ aus KR2.5** betrachtet.
+
+Bei der Einteilung wird zwischen dem Automatisierungsgrad eines vollständigen Prozessschritts und einzelnen automatisch ausgeführten Funktionen unterschieden. Ein Prozessschritt kann deshalb insgesamt teilautomatisiert sein, obwohl einzelne Funktionen darin vollständig automatisch ablaufen.
+
+## Automatisierungsmöglichkeiten
+
+| Nr.   | Prozessschritt                                             | Möglichkeit der Automatisierung                                                                                                                                    | Automatisierungsgrad                          | Begründung                                                                                                                                                      |
+| ----- | ---------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **1** | **Bewerbung einreichen**                                   | Das Bewerbungsportal stellt ein Formular bereit, prüft Pflichtfelder und Pflichtdokumente und ermöglicht das Hochladen der Unterlagen.                             | **Teilautomatisiert**                         | Die formale Prüfung erfolgt automatisch. Auswahl, Inhalt und Eingabe der Informationen liegen beim Bewerber.                                                    |
+| **2** | **Bewerbung erfassen und Eingang bestätigen**              | Nach dem Absenden speichert das HR-System die Bewerbung, vergibt eine Bewerbernummer, setzt den Status auf „eingegangen“ und versendet eine Eingangsbestätigung.   | **Im Normalfall vollständig automatisierbar** | Die Verarbeitung läuft nach festen Regeln ab. Die Personalabteilung greift nur bei falscher Zuordnung, technischen Fehlern oder anderen Ausnahmefällen ein.     |
+| **3** | **Bewerbungsunterlagen prüfen**                            | Das HR-System stellt Dokumente bereit, sortiert Bewerbungen und kennzeichnet fehlende Pflichtunterlagen.                                                           | **Durch IT unterstützt**                      | Die formale Vorprüfung kann automatisiert werden. Qualifikation, Erfahrung und persönliche Eignung müssen durch die Personalabteilung beurteilt werden.         |
+| **4** | **Interview organisieren und durchführen**                 | Systeme können Termine vergleichen, Einladungen und Erinnerungen versenden, Rückmeldungen speichern und Videokonferenzlinks erstellen.                             | **Teilautomatisiert**                         | Die Terminverwaltung ist standardisierbar. Durchführung, Kommunikation und Bewertung des Interviews bleiben menschliche Aufgaben.                               |
+| **5** | **Vertragsangebot erstellen und Entscheidung verarbeiten** | Nach Festlegung und Freigabe der Vertragsbedingungen übernimmt das HR-System Daten in eine Vorlage, erstellt und versendet das Dokument und speichert die Antwort. | **Teilautomatisiert**                         | Datenübernahme, Dokumenterstellung und Statusverwaltung können automatisch erfolgen. Vertragsbedingungen, Freigabe und Annahme sind menschliche Entscheidungen. |
+
+## Vollständig automatisierbare Funktionen
+
+- Prüfung, ob Pflichtfelder ausgefüllt und Pflichtdokumente vorhanden sind
+- Speicherung von Bewerbungsdaten und Dokumenten
+- Vergabe einer Bewerbernummer
+- Setzen des Status auf „eingegangen“
+- Versand einer Eingangsbestätigung
+- Versand freigegebener Einladungen und Erinnerungen
+- Erstellung eines Videokonferenzlinks
+- Übernahme freigegebener Daten in eine Vertragsvorlage
+- Protokollierung von Statusänderungen und Fristen
+
+Diese Funktionen sind regelbasiert, wiederholbar und standardisiert.
+
+## Durch IT unterstützte oder teilautomatisierte Tätigkeiten
+
+- übersichtliche Darstellung und Sortierung der Bewerbungen
+- Kennzeichnung formaler Auffälligkeiten
+- Vergleich verfügbarer Interviewtermine
+- Vorbereitung und Versand von Nachrichten nach einer menschlichen Freigabe
+- Dokumentation von Interviewbewertungen
+- Erstellung eines Vertragsdokuments nach Festlegung der Vertragsbedingungen
+- Überwachung von Rückmeldungen und Fristen
+
+Das System übernimmt administrative Arbeit. Die fachliche Verantwortung und die Freigabe bleiben bei den beteiligten Personen.
+
+## Nicht vollständig automatisierbare Tätigkeiten
+
+- inhaltliche Beurteilung der Qualifikationen
+- Bewertung der persönlichen Eignung
+- Entscheidung über Einladung oder Absage
+- Durchführung und Bewertung des Interviews
+- Abstimmung zwischen Personal- und Fachabteilung
+- Behandlung individueller Rückfragen und Sonderfälle
+- Festlegung und Freigabe der Vertragsbedingungen
+- Entscheidung des Bewerbers über Annahme oder Ablehnung
+- endgültige Einstellungsentscheidung
+
+Diese Tätigkeiten benötigen Kommunikation, Erfahrung, Verantwortung und menschliches Urteilsvermögen.
+
+## Beispiel für einen automatisierten Ablauf
+
+Nach dem Absenden der Bewerbung kann folgender Normalablauf automatisch ausgeführt werden:
+
+1. Das Bewerbungsportal prüft Pflichtfelder und Pflichtdokumente.
+2. Die Daten und Dokumente werden an das HR-System übertragen und gespeichert.
+3. Das System vergibt eine Bewerbernummer.
+4. Der Bearbeitungsstatus wird auf „eingegangen“ gesetzt.
+5. Der Bewerber erhält eine Eingangsbestätigung.
+6. Die Personalabteilung wird über die neue Bewerbung informiert.
+
+Anschliessend beginnt die organisatorische und inhaltliche Prüfung durch die Personalabteilung.
+
+## Vorteile der Automatisierung
+
+- weniger manuelle Dateneingaben und Übertragungsfehler
+- schnellere Bearbeitung und Kommunikation
+- einheitliche und nachvollziehbare Abläufe
+- automatische Dokumentation von Status und Fristen
+- Entlastung der Personalabteilung bei wiederkehrenden Aufgaben
+
+## Risiken
+
+Automatisierung ist von korrekten Daten und richtig definierten Regeln abhängig. Unvollständige Daten, technische Übertragungsfehler oder ein falsch gesetzter Bearbeitungsstatus können einen falschen Folgeprozess auslösen.
+
+Beispielsweise könnte beim Status „abgelehnt“ automatisch eine Absage versendet werden, obwohl die Bewerbung den Status „zum Interview eingeladen“ erhalten sollte. Deshalb müssen wichtige Entscheidungen, Statusänderungen und Vertragsdaten durch eine verantwortliche Person kontrolliert oder freigegeben werden.
