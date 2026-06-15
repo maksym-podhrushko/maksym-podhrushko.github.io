@@ -968,7 +968,6 @@ Ein **organisatorischer** Prozess ist zum Beispiel die **Kundenberatung im Swiss
 # KR4.2 Komponenten
 
 Für die Analyse der Komponenten wird der Prozess **„Personalbeschaffung durchführen“ aus KR2.5** betrachtet.
-
 ## Fünf Prozessschritte
 
 | Prozessschritt                                | Organisatorische Komponente                                     | Technische Komponente                                              | Einordnung                                                                  |
@@ -1040,7 +1039,7 @@ Das Bewerbungsportal prüft Pflichtfelder und Pflichtdokumente. Anschliessend we
 
 **Mögliches Risiko an der Schnittstelle:**
 
-Falsche Angaben, fehlende Dokumente oder ein Übertragungsfehler können dazu führen, dass die Bewerbung unvollständig oder falsch gespeichert wird.
+**Falsche Angaben, fehlende Dokumente oder ein Übertragungsfehler** können dazu führen, dass die Bewerbung unvollständig oder falsch gespeichert wird.
 
 ---
 
@@ -1162,7 +1161,9 @@ Unvollständige Bewertungen, widersprüchliche Rückmeldungen oder eine falsche 
 
 **Bewerber → Bewerbungsportal → HR-System → Personalabteilung → HR-System → Bewerber ↔ HR-/Kalendersystem → Personal- und Fachabteilung → HR-System**
 
-Die technischen Systeme prüfen, speichern, übertragen und protokollieren Daten. Die beteiligten Personen kontrollieren die Informationen, kommunizieren miteinander und treffen die notwendigen Entscheidungen.
+Die technischen Systeme prüfen, speichern, übertragen und protokollieren Daten. 
+
+Die beteiligten Personen kontrollieren die Informationen, kommunizieren miteinander und treffen die notwendigen Entscheidungen.
 
 ## Verantwortlichkeit
 
@@ -1204,7 +1205,6 @@ Diese Funktionen sind regelbasiert, wiederholbar und standardisiert.
 ## Durch IT unterstützte oder teilautomatisierte Tätigkeiten
 
 - übersichtliche Darstellung und Sortierung der Bewerbungen
-- Kennzeichnung formaler Auffälligkeiten
 - Vergleich verfügbarer Interviewtermine
 - Vorbereitung und Versand von Nachrichten nach einer menschlichen Freigabe
 - Dokumentation von Interviewbewertungen
@@ -1252,3 +1252,470 @@ Anschliessend beginnt die organisatorische und inhaltliche Prüfung durch die Pe
 Automatisierung ist von **korrekten Daten** und richtig definierten **Regeln** abhängig. Unvollständige Daten, technische Übertragungsfehler oder ein falsch gesetzter Bearbeitungsstatus können einen falschen Folgeprozess auslösen.
 
 Beispielsweise könnte beim Status „abgelehnt“ automatisch eine Absage versendet werden, obwohl die Bewerbung den Status „zum Interview eingeladen“ erhalten sollte. Deshalb müssen wichtige Entscheidungen, Statusänderungen und Vertragsdaten durch eine verantwortliche Person kontrolliert oder freigegeben werden.
+
+# KR3.4 Effektivität und Effizienz
+
+## 1. Ausgangslage
+
+Für die Untersuchung wird der Geschäftsprozess **Personalbeschaffung durchführen** verwendet. Das Ziel dieses Prozesses besteht darin, eine offene Stelle mit einer geeigneten Person zu besetzen.
+
+Der gesamte Prozess wird dafür in folgende fünf Teilprozesse unterteilt:
+
+1. Bewerbung einreichen
+2. Bewerbung erfassen und Eingang bestätigen
+3. Bewerbungsunterlagen prüfen und Vorauswahl treffen
+4. Interview planen und durchführen
+5. Auswahlentscheidung treffen und kommunizieren
+
+## 2. Unterschied zwischen Effektivität und Effizienz
+
+### Effektivität
+
+Die Effektivität beschreibt, ob das gewünschte Ziel eines Prozesses erreicht wird.
+
+> **Leitfrage:** Tun wir die richtigen Dinge?
+
+Ein Bewerbungsprozess ist beispielsweise effektiv, wenn eine geeignete Person gefunden und eingestellt wird. Dabei ist zunächst nicht entscheidend, wie viel Zeit oder Aufwand dafür benötigt wurde.
+
+Indikatoren für die Effektivität sind:
+- Anteil erfolgreich besetzter Stellen
+- Qualität beziehungsweise Eignung der ausgewählten Person
+- Vollständigkeit der Bewerbungsunterlagen
+- Zufriedenheit der Bewerbenden und der Fachabteilung
+- Einhaltung der rechtlichen und internen Vorgaben
+
+### Effizienz
+
+Die Effizienz beschreibt, mit welchem Aufwand das gewünschte Ergebnis erreicht wird.
+
+> **Leitfrage:** Tun wir die Dinge richtig?
+
+Ein Bewerbungsprozess ist effizient, wenn eine geeignete Person mit möglichst wenig Zeitaufwand, manueller Arbeit, Fehlern und unnötigen Prozessschritten gefunden wird.
+
+In dieser Untersuchung wird die Effizienz anhand von drei Bereichen beurteilt:
+
+- **Zeitfresser:** Wartezeiten, Rückfragen und manuelle Tätigkeiten
+- **Komplexität:** Anzahl beteiligter Rollen, Systeme und Entscheidungen
+- **Fehleranfälligkeit:** Risiko von falschen, fehlenden oder doppelt erfassten Informationen
+
+
+## 3. Visualisierung
+
+|                    | **Effizient**                                                          | nicht Effizient                                                              |
+| ------------------ | ---------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
+| **Effektiv**       | Das Ziel wird mit angemessenem Aufwand erreicht. **Idealfall**         | Das Ziel wird erreicht, aber es werden zu viel Zeit und Ressourcen benötigt. |
+| **Nicht effektiv** | Der Prozess läuft schnell, liefert aber nicht das gewünschte Ergebnis. | Weder das Ziel noch ein sinnvoller Ressourceneinsatz werden erreicht.        |
+### Beispiel aus dem Bewerbungsprozess
+
+Eine Bewerberin erhält innerhalb weniger Minuten automatisch eine Eingangsbestätigung. Der Prozess ist effizient, weil kaum manueller Aufwand entsteht.
+
+Wird die Bewerbung aber aufgrund einer fehlerhaften automatischen Prüfung nicht an die Personalabteilung weitergeleitet, ist der Prozess trotz der schnellen Bearbeitung nicht effektiv.
+
+
+## 4. Verwendete Indikatoren
+
+| **Bereich**                        | **Indikatoren**                                                                                               |
+| ---------------------------------- | ------------------------------------------------------------------------------------------------------------- |
+| **Effektivität**                   | Zielerreichung, Qualität des Ergebnisses, Vollständigkeit, Zufriedenheit und Einhaltung von Vorgaben          |
+| **Effizienz – Zeitfresser**        | Bearbeitungszeit, Wartezeit, Anzahl Rückfragen, manuelle Dateneingaben und Medienbrüche                       |
+| **Effizienz – Komplexität**        | Anzahl Rollen, Systeme, Schnittstellen, Entscheidungsstellen und Ausnahmefälle                                |
+| **Effizienz – Fehleranfälligkeit** | Unvollständige Daten, falsche Übertragungen, doppelte Einträge, Terminfehler und fehlende Statusinformationen |
+### Bewertungsmassstab
+
+- **Niedrig:** wenige Schwierigkeiten oder geringer Optimierungsbedarf
+- **Mittel:** einzelne Schwierigkeiten oder teilweise manueller Aufwand
+- **Hoch:** deutliche Schwierigkeiten oder grosses Optimierungspotenzial
+
+## 5. Analyse der fünf Teilprozesse
+
+### 5.1 Bewerbung einreichen
+
+Die bewerbende Person füllt das Bewerbungsformular aus und lädt die benötigten Dokumente hoch.
+
+| Kriterium              | Beurteilung                                                                         |
+| ---------------------- | ----------------------------------------------------------------------------------- |
+| **Effektivität**       | Hoch, wenn alle Angaben und Dokumente vollständig eingereicht werden.               |
+| **Zeitfresser**        | Mittel, weil Dokumente vorbereitet und fehlende Angaben nachgereicht werden müssen. |
+| **Komplexität**        | Mittel, da verschiedene Daten und Dokumente erforderlich sind.                      |
+| **Fehleranfälligkeit** | Mittel, weil Angaben fehlen oder falsche Dokumente hochgeladen werden können.       |
+
+**Optimierungsmöglichkeiten:**
+
+- Pflichtfelder automatisch prüfen
+    
+- Dateiformat und Dateigrösse kontrollieren
+    
+- Liste der benötigten Dokumente anzeigen
+    
+
+**Erwartete Verbesserung:**  
+Die Bewerbungen sind vollständiger und es entstehen weniger Rückfragen.
+
+---
+
+### 5.2 Bewerbung erfassen und Eingang bestätigen
+
+Die Bewerbung wird im HR-System gespeichert. Danach erhält die bewerbende Person eine Eingangsbestätigung.
+
+| Kriterium              | Beurteilung                                                                         |
+| ---------------------- | ----------------------------------------------------------------------------------- |
+| **Effektivität**       | Hoch, wenn jede Bewerbung korrekt gespeichert und bestätigt wird.                   |
+| **Zeitfresser**        | Hoch bei manueller Übertragung der Daten.                                           |
+| **Komplexität**        | Niedrig bis mittel, weil der Ablauf festen Regeln folgt.                            |
+| **Fehleranfälligkeit** | Hoch bei manueller Bearbeitung, da Daten falsch oder doppelt erfasst werden können. |
+
+**Optimierungsmöglichkeiten:**
+
+- Bewerbung automatisch speichern
+    
+- Bewerbungsnummer automatisch erstellen
+    
+- Eingangsbestätigung automatisch versenden
+    
+- Planner-Aufgabe für HR erstellen
+    
+
+**Erwartete Verbesserung:**  
+Die Bewerbung wird schneller verarbeitet und kann eindeutig verfolgt werden.
+
+---
+
+### 5.3 Bewerbungsunterlagen prüfen und Vorauswahl treffen
+
+Die Personalabteilung prüft die Unterlagen und vergleicht sie mit den Anforderungen der Stelle.
+
+|Kriterium|Beurteilung|
+|---|---|
+|**Effektivität**|Hoch, wenn geeignete Personen für ein Interview ausgewählt werden.|
+|**Zeitfresser**|Hoch, weil viele Dokumente gelesen und verglichen werden müssen.|
+|**Komplexität**|Hoch, da unterschiedliche Qualifikationen beurteilt werden müssen.|
+|**Fehleranfälligkeit**|Hoch, weil Dokumente übersehen oder unterschiedlich bewertet werden können.|
+
+**Optimierungsmöglichkeiten:**
+
+- Vollständigkeit automatisch prüfen
+    
+- Einheitliche Bewertungskriterien verwenden
+    
+- Bewertungsformular einsetzen
+    
+- Fehlende Dokumente automatisch anfordern
+    
+
+**Erwartete Verbesserung:**  
+Die Bewerbungen werden einheitlicher und nachvollziehbarer beurteilt.
+
+> Die endgültige Auswahl wird weiterhin durch die zuständigen Personen getroffen.
+
+---
+
+### 5.4 Interview planen und durchführen
+
+Die Personalabteilung organisiert einen Interviewtermin mit der Fachabteilung und der bewerbenden Person.
+
+|Kriterium|Beurteilung|
+|---|---|
+|**Effektivität**|Hoch, wenn alle Personen teilnehmen und das Interview eine Entscheidung ermöglicht.|
+|**Zeitfresser**|Sehr hoch, weil häufig mehrere Termine per E-Mail abgestimmt werden müssen.|
+|**Komplexität**|Hoch, da mehrere Personen und Kalender beteiligt sind.|
+|**Fehleranfälligkeit**|Mittel bis hoch, weil Doppelbuchungen oder fehlende Einladungen möglich sind.|
+
+**Optimierungsmöglichkeiten:**
+
+- Freie Termine automatisch prüfen
+    
+- Kalendereintrag automatisch erstellen
+    
+- Teams-Link automatisch hinzufügen
+    
+- Erinnerungen automatisch versenden
+    
+
+**Erwartete Verbesserung:**  
+Die Terminplanung benötigt weniger Zeit und es entstehen weniger Terminfehler.
+
+---
+
+### 5.5 Auswahlentscheidung treffen und kommunizieren
+
+Nach den Interviews wird eine Person ausgewählt. Sie erhält eine Zusage, während die anderen Personen eine Absage erhalten.
+
+|Kriterium|Beurteilung|
+|---|---|
+|**Effektivität**|Hoch, wenn die passende Person ausgewählt und korrekt informiert wird.|
+|**Zeitfresser**|Mittel bis hoch wegen Rücksprachen und Genehmigungen.|
+|**Komplexität**|Hoch, da mehrere Personen an der Entscheidung beteiligt sind.|
+|**Fehleranfälligkeit**|Hoch, weil falsche Daten verwendet oder Mitteilungen vergessen werden können.|
+
+**Optimierungsmöglichkeiten:**
+
+- Digitalen Genehmigungsprozess einsetzen
+    
+- Standardisierte Vorlagen verwenden
+    
+- Status automatisch aktualisieren
+    
+- Zusagen und Absagen automatisch vorbereiten
+    
+- Offene Genehmigungen automatisch erinnern
+    
+
+**Erwartete Verbesserung:**  
+Entscheidungen werden schneller verarbeitet und alle Bewerbenden erhalten eine Rückmeldung.
+
+> Die endgültige Personalentscheidung bleibt bei der Personalabteilung und der Fachabteilung.
+# KR4.4 Anforderungen an ein Workflow-Tool
+
+## 1. Ausgangslage
+
+Im Prozess **Personalbeschaffung** werden Bewerbungen entgegengenommen, gespeichert und durch die Personalabteilung geprüft.
+
+Bei einer manuellen Bearbeitung können folgende Probleme entstehen:
+
+- Bewerbungsdaten müssen von Hand übertragen werden.
+    
+- Eingangsbestätigungen können vergessen werden.
+    
+- Bewerbungen können falsch zugeordnet werden.
+    
+- Die Personalabteilung wird nicht sofort informiert.
+    
+
+Deshalb soll der Teilprozess **„Bewerbung erfassen und Eingang bestätigen“** mit Power Automate unterstützt werden.
+
+---
+
+## 2. Ziel des Workflows
+
+Nach dem Absenden einer Bewerbung soll automatisch Folgendes passieren:
+
+1. Bewerbungsdaten werden übernommen.
+    
+2. Die Bewerbung wird gespeichert.
+    
+3. Eine Bewerbungsnummer wird vergeben.
+    
+4. Eine Eingangsbestätigung wird versendet.
+    
+5. Eine Aufgabe für die Personalabteilung wird erstellt.
+    
+
+---
+
+## 3. Verwendete Tools
+
+|Tool|Verwendung|
+|---|---|
+|**Microsoft Forms**|Bewerbungsformular|
+|**Power Automate**|Steuerung des Workflows|
+|**SharePoint-Liste**|Speicherung der Bewerbungsdaten|
+|**Outlook**|Versand der Eingangsbestätigung|
+|**Microsoft Planner**|Aufgabe für die Personalabteilung|
+
+---
+
+## 4. Projektvorgehen
+
+Als Vorgehen wird **iteratives Prototyping** verwendet.
+
+Der Workflow wird schrittweise erstellt und nach jedem Schritt getestet.
+
+### Vorgehensschritte
+
+1. Bewerbungsformular erstellen
+    
+2. SharePoint-Liste vorbereiten
+    
+3. Power-Automate-Flow erstellen
+    
+4. E-Mail und Planner-Aufgabe hinzufügen
+    
+5. Workflow mit Testdaten prüfen
+    
+6. Fehler korrigieren und erneut testen
+    
+
+Dieses Vorgehen eignet sich, weil der Workflow klein ist und einfach Schritt für Schritt umgesetzt werden kann.
+
+---
+
+## 5. Anforderungen
+
+## A1: Automatischer Start
+
+**Anforderung:**  
+Der Workflow muss automatisch starten, sobald eine neue Bewerbung über Microsoft Forms abgesendet wird.
+
+**Begründung:**  
+Die Personalabteilung soll den Workflow nicht manuell starten müssen.
+
+**Test:**  
+Nach dem Absenden des Formulars wird der Flow automatisch ausgeführt.
+
+---
+
+## A2: Bewerbungsdaten übernehmen
+
+**Anforderung:**  
+Der Workflow muss die Angaben aus Microsoft Forms übernehmen.
+
+Dazu gehören mindestens:
+
+- Name
+    
+- E-Mail-Adresse
+    
+- gewünschte Stelle
+    
+
+**Begründung:**  
+Die Daten müssen dadurch nicht von Hand übertragen werden.
+
+**Test:**  
+Die übernommenen Daten stimmen mit den Angaben im Formular überein.
+
+---
+
+## A3: Bewerbung speichern
+
+**Anforderung:**  
+Die Bewerbungsdaten müssen in einer SharePoint-Liste gespeichert werden.
+
+Gespeichert werden:
+
+- Bewerbungsnummer
+    
+- Name
+    
+- E-Mail-Adresse
+    
+- gewünschte Stelle
+    
+- Eingangsdatum
+    
+- Status
+    
+
+**Begründung:**  
+Alle Bewerbungen sind dadurch zentral gespeichert und auffindbar.
+
+**Test:**  
+Nach dem Absenden wird ein neuer Eintrag in der SharePoint-Liste erstellt.
+
+---
+
+## A4: Bewerbungsnummer und Status vergeben
+
+**Anforderung:**  
+Jede Bewerbung muss eine eindeutige Bewerbungsnummer und den Status **„Eingegangen“** erhalten.
+
+Beispiel:
+
+`BEW-125`
+
+**Begründung:**  
+Die Bewerbung kann dadurch eindeutig zugeordnet werden.
+
+**Test:**  
+Jede Testbewerbung erhält eine eigene Nummer und den richtigen Status.
+
+---
+
+## A5: Eingangsbestätigung versenden
+
+**Anforderung:**  
+Die bewerbende Person muss automatisch eine Eingangsbestätigung per E-Mail erhalten.
+
+Die E-Mail enthält:
+
+- Name
+    
+- gewünschte Stelle
+    
+- Bewerbungsnummer
+    
+- Bestätigung des Eingangs
+    
+
+**Begründung:**  
+Die Person weiss sofort, dass die Bewerbung angekommen ist.
+
+**Test:**  
+Nach dem Absenden trifft eine E-Mail an der angegebenen Adresse ein.
+
+---
+
+## A6: Aufgabe für HR erstellen
+
+**Anforderung:**  
+Für jede neue Bewerbung muss automatisch eine Aufgabe im Microsoft Planner erstellt werden.
+
+Die Aufgabe enthält:
+
+- Name der bewerbenden Person
+    
+- gewünschte Stelle
+    
+- Bewerbungsnummer
+    
+
+**Begründung:**  
+Die Personalabteilung wird über die neue Bewerbung informiert und vergisst die Bearbeitung nicht.
+
+**Test:**  
+Nach dem Absenden erscheint eine neue Aufgabe im Planner.
+
+---
+
+## 6. Übersicht
+
+| ID     | Anforderung                          |
+| ------ | ------------------------------------ |
+| **A1** | Workflow automatisch starten         |
+| **A2** | Bewerbungsdaten übernehmen           |
+| **A3** | Bewerbung in SharePoint speichern    |
+| **A4** | Bewerbungsnummer und Status vergeben |
+| **A5** | Eingangsbestätigung versenden        |
+| **A6** | Planner-Aufgabe für HR erstellen     |
+
+---
+
+## 7. Abgrenzung
+
+Der Workflow unterstützt nur den Eingang und die Erfassung einer Bewerbung.
+
+Nicht automatisiert werden:
+
+- Prüfung der Qualifikationen
+    
+- Einladung zum Interview
+    
+- persönliche Bewertung
+    
+- Auswahlentscheidung
+    
+- Erstellung des Arbeitsvertrags
+    
+
+Diese Aufgaben bleiben bei der Personalabteilung und der Fachabteilung.
+
+---
+
+## 8. Geplanter Ablauf
+
+```text
+Bewerbung wird in Microsoft Forms abgesendet
+                    ↓
+Power Automate startet
+                    ↓
+Bewerbungsdaten werden abgerufen
+                    ↓
+Eintrag wird in SharePoint erstellt
+                    ↓
+Bewerbungsnummer und Status werden vergeben
+                    ↓
+Eingangsbestätigung wird versendet
+                    ↓
+Planner-Aufgabe wird erstellt
+```
+# KR4.5 Umsetzung
